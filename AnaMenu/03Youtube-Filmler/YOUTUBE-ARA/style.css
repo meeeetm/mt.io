@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8px;
+}
+
+/*
+	------------------------------
+	Changes to the Materialize CSS
+	------------------------------
+*/
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 22px;
+}
+
+.collection-item {
+  height: 200px;
+  overflow: hidden;
+}
+
+.collection {
+  width: 100%;
+}
+
+.collection .collection-item {
+  padding: 10px;
+}
+
+.btn {
+  background: #800A02;
+}
+
+.btn:hover {
+  background: #ff8a80;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #800A02;
+  box-shadow: 0 4px 0 0 #800A02;
+}
+
+/*
+	----------
+	Custom CSS
+	----------
+*/
+
+#results {
+  display: none;
+}
+
+/*Video thumbnail
+w - 450
+h - 180
+*/
+.image-container {
+  float: left;
+  position: relative;
+  width: 450px;
+  height: 190px;
+}
+
+/*Video thumbnail*/
+.image {
+  position: absolute;
+}
+
+.video-info-container {
+  height: 190px;
+  /*
+	width of the image + 10px
+	450 + 10
+	*/
+  margin-left: 330px;
+  font-size: 14px;
+}
+
+/*Video Title*/
+.title {
+  font-size: 22px;
+}
