@@ -17,7 +17,7 @@ const channels = [
   },
   {
     channelName: "Euro D",
-    src: "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
+    src: "http://ipilzer.live:8080/SL2.Uy9KF2p/sKNKFjcLSw/2588",
   },
   {
     channelName: "Kanal D",
