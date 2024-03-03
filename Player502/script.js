@@ -1,47 +1,47 @@
 const channels = [
   {
     channelName: "Kanal 24",
-    src: "https://eliotlencelot.fr/Applications/Proxy/Proxy.php/https://shls-mbc1na-prod-dub.shahid.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/index_1.m3u8",
+    src: "https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8",
   },
   {
     channelName: "360 Tv",
-    src: "https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8",
+    src: "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
   },
   {
     channelName: "Cnn Turk",
-    src: "https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/chunklist_b4000000_t64MTA4MHA=.m3u8",
+    src: "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8",
   },
   {
     channelName: "Turis Tv",
-    src: "https://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/playlist.m3u8",
+    src: "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
   },
   {
     channelName: "Euro D",
-    src: "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+    src: "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8",
   },
   {
     channelName: "Kanal D",
-    src: "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
+    src: "https://demiroren-live.daioncdn.net/kanald/kanald.m3u8",
   },
   {
     channelName: "Kardelen Tv",
-    src: "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+    src: "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8",
   },
   {
     channelName: "Kral Pop",
-    src: "https://stream.skynewsarabia.com/hls/sna_720.m3u8",
+    src: "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
   },
   {
     channelName: "Miljon Tv",
-    src: "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist.m3u8",
+    src: "https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8",
   },
   {
     channelName: "Ntv",
-    src: "https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8",
+    src: "https://dogus-live.daioncdn.net/ntv/ntv.m3u8",
   },
   {
     channelName: "Power Love",
-    src: "https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8",
+    src: "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
   },
   {
     channelName: "Power Dance",
@@ -49,23 +49,23 @@ const channels = [
   },
   {
     channelName: "Power Turk",
-    src: "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
+    src: "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
   },
   {
     channelName: "Power Akustik",
-    src: "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8",
+    src: "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
   },
   {
     channelName: "Power Slow",
-    src: "https://admdn2.cdn.mangomolo.com/adtv/smil:adtv.stream.smil/chunklist.m3u8",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
   },
   {
-    channelName: "Emarat TV",
-    src: "https://admdn3.cdn.mangomolo.com/emarat/smil:emarat.stream.smil/playlist.m3u8",
+    channelName: "Damar Kutusu",
+    src: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
   },
   {
     channelName: "Power Slow",
-    src: "https://dmieigthvll.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/chunks.m3u8",
+    src: "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
   },
 ];
 
