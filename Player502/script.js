@@ -8,16 +8,16 @@ const channels = [
     src: "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
   },
   {
-    channelName: "Cnn Turk",
-    src: "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8",
+    channelName: "Yol Tv",
+    src: "https://stream.yol.tv:9443/medialive/yol.m3u8",
   },
   {
     channelName: "Turis Tv",
-    src: "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+    src: "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
   },
   {
     channelName: "Euro D",
-    src: "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8",
+    src: "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
   },
   {
     channelName: "Kanal D",
@@ -57,6 +57,46 @@ const channels = [
   },
   {
     channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+    channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+   channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+   channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+   channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+   channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+   channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+   channelName: "Power Slow",
+    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  },
+  {
+
+   channelName: "Power Slow",
     src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
   },
   {
