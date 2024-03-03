@@ -28,8 +28,8 @@ button:hover {
 #channels-list {
   background: #000;
   color: #fff;
-  width: 100px;
-  min-width: 200px;
+  width: 300px;
+  min-width: 300px;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -41,8 +41,8 @@ button:hover {
 
 .bbc-arabic {
   border: 2px solid #ccc9c985;
-  padding: 2px;
-  border-radius: 2px;
+  padding: 10px;
+  border-radius: 10px;
   width: 100%;
   text-align: center;
   cursor: pointer;
@@ -55,12 +55,12 @@ button:hover {
   width: 50%;
   display: flex;
   align-items: center;
-  padding: 1px;
-  font-weight: 50;
+  padding: 8px;
+  font-weight: 300;
 }
 
 .channel-name {
-  border: 1px solid #ccc9c985;
+  border: 2px solid #ccc9c985;
   padding: 10px;
   border-radius: 10px;
   width: 100%;
@@ -89,7 +89,7 @@ button:hover {
 .show-hide-sidebar,
 .show-hide-input {
   position: absolute;
-  font-size: 10px;
+  font-size: 32px;
   padding-left: 8px;
   color: #eaeaea;
   text-shadow: 3px 2px #000;
@@ -133,9 +133,9 @@ button:hover {
   height: 100%;
 }
 
-@media (max-width: 200px) {
+@media (max-width: 600px) {
   #channels-list {
-    width: 20px;
+    width: 50px;
     min-width: 135px;
   }
   .channel-item {
