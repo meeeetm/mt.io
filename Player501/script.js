@@ -52,20 +52,6 @@ playlistItems[0].classList.add('active');
 
 
 
- }
-    
-    .nav--left {
-      border-radius: 0px 3px 3px 0px;
-    }
-    
-    .nav--right {
-      right: 0;
-      border-radius: 3px 0px 0px 3px;
-    }
-  }
-}
-
-
 
 
 
