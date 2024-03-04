@@ -143,9 +143,9 @@ body {
 }
 .player-controls__item {
   display: inline-flex;
-  font-size: 30px;
-  padding: 5px;
-  margin-bottom: 10px;
+  font-size: 50px;
+  padding: 8px;
+  margin-bottom: 2px;
   color: #acb8cc;
   cursor: pointer;
   width: 50px;
