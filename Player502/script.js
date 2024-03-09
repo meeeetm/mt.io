@@ -13,11 +13,11 @@ const channels = [
   },
   {
     channelName: "Turis Tv",
-    src: "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
+    src: "https://ciner-live.daioncdn.net/showtv/showtv.m3u8",
   },
   {
     channelName: "Euro D",
-    src: "http://ipilzer.live:8080/SL2.Uy9KF2p/sKNKFjcLSw/2588",
+    src: "https://ciner-live.daioncdn.net/showtv/showtv.m3u8",
   },
   {
     channelName: "Kanal D",
@@ -59,50 +59,89 @@ const channels = [
     channelName: "Power Slow",
     src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
   },
-  {
 
-    channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+  {
+    channelName: "Trt Muzik",
+    src: "https://tv-trtmuzik.medya.trt.com.tr/master_480.m3u8",
+  },
+  {
+    channelName: "Power Turk Taptaze",
+    src: "https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+  },
+  {
+    channelName: "Sila Tv",
+    src: "https://yayin.santraltr.com/hls/silatv.m3u8",
+  },
+
+
+
+
+
+  {
+    channelName: "Nr One Damar",
+    src: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8",
+  },
+  {
+    channelName: "Tempo Tv",
+    src: "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8",
+  },
+
+
+
+  {
+    channelName: "Flash Tv",
+    src: "https://stream.guventechnology.com:19360/flashtv/flashtv.m3u8",
   },
   {
 
-   channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+   channelName: "90 Plus",
+    src: "https://euro90tv-live.cdnnew.com/euro90tv/e9090.m3u8",
   },
   {
 
-   channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+   channelName: "Tv 4 ",
+    src: "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8",
   },
   {
 
-   channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+   channelName: "Az Star Tv",
+    src: "https://live.livestreamtv.ca/azstar/smil:azstar.smil/chunklist_w995405358_b3000000_slen.m3u8",
   },
   {
 
-   channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+   channelName: "Tempo Tv",
+    src: "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8",
   },
   {
 
-   channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+   channelName: "Afyon Türk",
+    src: "https://tv.digitalbox.xyz:19360/afyonturktv/afyonturktv.m3u8",
   },
   {
 
-   channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+   channelName: "Tatlises Tv",
+    src: "https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8",
   },
   {
 
-   channelName: "Power Slow",
-    src: "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+   channelName: "Tokat Tv",
+    src: "https://cdn-tokattvwebtv.yayin.com.tr/tokattvwebtv/tokattvwebtv/chunklist_w2077365738.m3u8",
   },
   {
     channelName: "Damar Kutusu",
     src: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
   },
+
+  {
+    channelName: "Kanal 19",
+    src: "https://vdo.digitalbox.xyz:3644/live/kanal19tvlive.m3u8",
+  },
+
+
+
+
+
+
   {
     channelName: "Power Slow",
     src: "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
