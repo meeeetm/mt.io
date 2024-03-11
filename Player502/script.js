@@ -15,10 +15,7 @@ const channels = [
     channelName: "Turis Tv",
     src: "https://ciner-live.daioncdn.net/showtv/showtv.m3u8",
   },
-  {
-    channelName: "Euro D",
-    src: "https://ciner-live.daioncdn.net/showtv/showtv.m3u8",
-  },
+
   {
     channelName: "Kanal D",
     src: "https://demiroren-live.daioncdn.net/kanald/kanald.m3u8",
@@ -73,10 +70,6 @@ const channels = [
     src: "https://yayin.santraltr.com/hls/silatv.m3u8",
   },
 
-
-
-
-
   {
     channelName: "Nr One Damar",
     src: "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8",
@@ -85,8 +78,6 @@ const channels = [
     channelName: "Tempo Tv",
     src: "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8",
   },
-
-
 
   {
     channelName: "Flash Tv",
@@ -109,7 +100,7 @@ const channels = [
   },
   {
 
-   channelName: "Tempo Tv",
+   channelName: "Ty",
     src: "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8",
   },
   {
@@ -136,11 +127,6 @@ const channels = [
     channelName: "Kanal 19",
     src: "https://vdo.digitalbox.xyz:3644/live/kanal19tvlive.m3u8",
   },
-
-
-
-
-
 
   {
     channelName: "Power Slow",
