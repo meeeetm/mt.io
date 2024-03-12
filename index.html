@@ -1,412 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet" />
-<title>Turis Tv</title>
-<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />
+  <meta charset="UTF-8">
+  <title>Turis Tv</title>
+  
 
-<!---------------------
-
-Design: Turis Mulayim
-Design name: Turis Mulayim 
-contact number : +32486790423 
-YouTube link for more explanations and codes html
-https://www.youtube.com/c/Androidsh
-We hope that this data will not be deleted
-Good luck to all ♥
-
----------------------->
-
-<!----------  Channel style codes  ------------>
-<style type="text/css">
-.grid-container {
-display: grid;
-justify-content: center;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 5px 5px;
-padding: 10px;
-}
-.grid1-container {
-display: grid;
-justify-content: center;
-grid-template-columns: repeat(1, 1fr);
-grid-gap: 10px;
-
-color: white;
-padding: px;
-}
-h1 {
-text-align: center;
-margin-top: 1px;
-font-weight: bold;
-font-family: "Readex Pro", sans-serif;
-
-}
-
-h2 {
-text-align: center;
-margin-top: 0.5px;
-font-size: 12px;
-color: #8d8daa;
-font-family: "Readex Pro", sans-serif;
-font-weight: bold;
-}
-
-button {
-border-radius: 8px;
-background-image: linear-gradient(to right, #ffffff, #ffffff);
-border-color: #990000;
-padding: 0px;
-margin: 3px;
-height: 130px;
-width: 100px;
-cursor: pointer;
-}
-
-.button {
-text-align: center;
-}
- {
-display: block;
-}
-button:active {
-border: 2px solid #f00;
-}
-
-</style>
-
-<!----------  Comprehensive application style codes  ------------>
-<style type="text/css">
-@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
-body {
-padding: 0;
-margin: 0;
-user-select: none;
-list-style: none;
-background: #ffffff;
-background-size: cover;
-font-weight: 500;
-font-size: 16px;
-text-align: right;
-margin: auto;
-/* position: relative; */
-direction: ltr;
-
-/**  Change the application background **/
-background-image: url(https://od.lk/s/OTFfMjkwNzc1MTZf/back2.jpg);
-/**  Change the application background **/
-}
-h3 {
-text-align: center;
-/* text-align: right; */
-/* padding-right: 65px; */
-/* padding-top: 2px;
-    font-size: medium; */
-font-weight: 200;
-font-family: "Readex Pro", sans-serif;
-}
-
-header {
-/**  Change the logo background color   **/
-background: rgba(100,0,0,255);
-/**  Change the logo background color   **/
-padding: 2px;
-color: #fff;
-margin-bottom: 10px;
-position: fixed;
-top: 0;
-height: 60px;
-width: 100%;
-box-shadow: 0px 0px 7px black;
-z-index: 1;
-}
-
-#i1 {
-position: fixed;
-top: 21px;
-
-right: 17px;
-font-size: 40px;
-}
-#i2 {
-position: fixed;
-top: 21px;
-left: 14px;
-font-size: 40px;
-}
-#i3 {
-position: fixed;
-top: 16px;
-left: 40px;
-font-size: 40px;
-}
-
-#page:hover {
-background: none;
-}
-#page {
-margin-top: 75px;
-width: 100%;
-}
-
-#page a:hover {
-background: #fff;
-}
-#page a {
-height: 50px;
-padding-top: 2px;
-padding-bottom: 2px;
-margin-bottom: 11px;
-border: 2px solid rgba(188, 17, 21, 255);
-border-radius: 15px;
-width: 91%;
-display: inline-block;
-margin-right: 14px;
-margin-left: 14px;
-background: white;
-}
-#page a img {
-/*height:50px;
-margin-right:10px;
-width:50px;
-padding-bottom:4px;
-*/
-height: 50px;
-margin-right: 10px;
-width: 50px;
-padding-bottom: 4px;
-}
-#page a p {
-text-align: center;
-font-family: "Readex Pro", sans-serif;
-/* position: absolute; */
-/* margin-right: 20px; */
-/* margin-top: -40px; */
-display: inline-block;
-font-weight: 550;
-color: rgba(188, 17, 21, 255);
-}
-</style>
-
-<!----------  Menu style codes  ------------>
-<style>
-.sidenav {
-height: 100%;
-width: 0;
-position: fixed;
-z-index: 1;
-top: 0;
-right: 0;
-/**  Change menu color **/
-background-color: #6f0100;
-/**  Change menu color **/
-
-overflow-x: hidden;
-transition: 0.5s;
-padding-top: 60px;
-}
-
-.sidenav a {
-padding: 8px 8px 8px 32px;
-text-decoration: none;
-font-size: 15px;
-color: #fff;
-display: block;
-transition: 0.3s;
-text-align: center;
-font-family: "Readex Pro", sans-serif;
-}
-
-.sidenav a:hover {
-color: #d9c9c9;
-}
-
-.sidenav .closebtn {
-position: absolute;
-top: 5px;
-right: 0;
-font-size: 15px;
-margin-left: 0px;
-}
-
-@media screen and (max-height: 450px) {
-.sidenav {
-padding-top: 15px;
-}
-.sidenav a {
-font-size: 18px;
-}
-}
-
-/* .Remove the scroll bar at the bottom of the blog*/
-html {
-overflow-x: hidden;
-}
-
-/* Remove changing the shape of the scroll bar Scroll.Bar */
-::-webkit-scrollbar {
-width: 7px;
-}
-::-webkit-scrollbar-thumb {
--webkit-shadow: inset 0 0 0 #000;
--webkit-border-radius: 0;
-background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
-}
-::-webkit-scrollbar-track {
--webkit-shadow: inset 0 0 0 #000;
--webkit-border-radius: 100px;
-}
-</style>
 </head>
-<body dir="rtl">
-<header>
-<!--- Back page link --->
-<a href="  https://meeeetm.github.io/mt.io/ "><i id="i2" class="fa fa-arrow-left" style="font-size: 20px; color: #fff; margin-top: 2px;"></i></a>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/openplayerjs@latest/dist/openplayer.css">
+  
+</head> <body> <p>
 
-<!--- Department Name --->
-<center><h3> Turis Tv</h3></center>
+    
+<video style="width: 50px; height: 300px; z-index: -10px;
+ "class="op-player__media" id="video"  id="player" poster="https://olaargentina.com/wp-content/uploads/2019/11/loading-gif-transparent-10.gif"  autoplay="yes" controls>
+    <source id="player" src="https://moiptvhls-i.akamaihd.net/hls/live/652318/secure/HQs/chunklist.m3u8"></video>
+  
+  <center></br>
 
-<!--- the list --->
-<div id="mySidenav" class="sidenav">
-<!--- logo --->
-<div class="col-md-9">
-<img src="https://od.lk/s/OTFfMjkwNzc0NThf/turistv.jpg" style="width: 180px; height: `; /* margin: 15px; */ padding: 10px; margin-top: -34px; margin-right: 15px;" />
-</div>
+  
+<p><table border=0 cellpadding=5   cellspacing=1><tr><td valign=top >
 
-<!---  List sections -->
-<a href="https://play.google.com/store/apps/details?id=co.wuffy.player&hl=en&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dwuffy+player&pcampaignid=APPU_1_5_5tXqD2JIaNlwTF1LqwDg"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ INDIR </a>
+</td><td valign=top width=99 style="padding-top:3px;" ><g:plusone size="medium"></g:plusone></td>
+</tr></table>
+    
+ <a class="playlist">                                                    
 
-<a href="XXX/index.html"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ XXX </a>
-<a href="https://mulayimturis.000webhostapp.com/"> <i class="fa fa-share"></i> ⬇ꜜ⬇ꜜ⬇ ŞİFRELİ KAPI</a>
-
-<a href="AnaMenu/Turis-Tv.html"> <i class="fa fa-bolt"></i>   Turis Tv  Radyo  </a>
-<a href="https://s6.dosya.tc/server19/texq2s/Turis_TV.apk.html"> <i class="fa fa-envelope"></i> Turis Tv Apk</a>
-<!--- The lock code is forbidden to be deleted --->
-<a href="javascript:void(0)" onclick="closeNav()">  🔐 X Kapat Menu  </a>
-</div>
-<span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
-<i id="i1" class="fa fa-bars" style="font-size: 20px; color: #fff;"></i>
-</span>
-</header>
-<div id="page">
-<div class="grid1-container">
-<div align="center" class="button">
-<div id="buttons-list">
-<!--- Application sections --->
-<button onclick="window.open('AnaMenu/01Iptv/index.html')">
-<img src="https://od.lk/s/OTFfMjg5NTgwNjVf/iptv1.jpeg" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>IPTV IZLE </h2>
-</button>
-
-<button onclick="window.open('AnaMenu/01Iptv/10TurisWuffy/index.html')">
-<img src="https://od.lk/s/OTFfMjg1NTk5OTNf/Ben1.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2> BEIN SPOR'LAR</h2>
-</button>
-
-<button onclick="window.open('AnaMenu/02Muzik/Ana-Menu.html')">
-<img src="https://od.lk/s/OTFfMjg5MzMzMTJf/Muzikler.jpeg" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>MUZIK DINLE</h2>
-</button>
-
-<button onclick="window.open('AnaMenu/Yedek-Program/index.html')">
-<img src="https://od.lk/s/OTFfMjg5NTgwNzRf/program1.jpg" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>PROGRAM</h2>
-</button>
-
-<button onclick="window.open('https://meeeetm.github.io/mtProg.io/')">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjlDkVP5bC173dbtRjIgEVa97hqx7gbefOzQ&usqp=CAU" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>FULL PROGRAM</h2>
-</button>
-
-<button onclick="window.open('AnaMenu/03Youtube-Filmler/Ana-Menu.html')">
-<img src="https://od.lk/s/OTFfMjg5MzMzMTBf/filmler.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>YOUTUBE FILMLER</h2>
-</button>
-
-<button onclick="window.open('AnaMenu/Turis-Tv.html')">
-<img src="https://od.lk/s/OTFfMjg5MzQ1Njlf/Radyo1.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>RADYOLAR</h2>
-</button>
-
-<button onclick="window.open('AnaMenu/Dini-Sohbet/index.html')">
-<img src="https://od.lk/s/OTFfMjkxNTIyNzJf/DiniS.jpeg" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>DINI SOHBET</h2>
-</button>
-
-<button onclick="window.open('AnaMenu/05-Filmler/index.html')">
-<img src="https://od.lk/s/OTFfMjg5MzMzMTFf/Movie.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>FILMLER KARISIK</h2>
-</button>
-
-
-<button onclick="window.open('AnaMenu/Turis-Player/index.html')">
-<img src="https://freeapk.mobi/upload/icons/4f/6d/4f6dfe149e9f8f09e3a7b11a4c5e2f8a.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Test Player</h2>
-</button>
-
-
-<button onclick="window.open('Dilber/index.html')">
-<img src="https://od.lk/s/OTFfMjk1NDA3ODRf/dilber.jpg" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Dilber </h2>
-</button>
-
-
-<button onclick="window.open('101Filmler/index.html')">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1GBVktqjF7RhkauW2kNXXnTs0Igu8zZ-rdfWV_CMakFvHL7fQleJ4wZzH1dgs9EEZaEg&usqp=CAU" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Filmler</h2>
-</button>
-
-
-
-<button onclick="window.open('https://soundcloud.com/search?q=ibrahim%20tatlises')">
-<img src="https://freeapk.mobi/upload/icons/4f/6d/4f6dfe149e9f8f09e3a7b11a4c5e2f8a.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Mp3 Indir</h2>
-</button>
-
-<button onclick="window.open('Player502/index.html')">
-<img src="https://freeapk.mobi/upload/icons/4f/6d/4f6dfe149e9f8f09e3a7b11a4c5e2f8a.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Player Iptv2</h2>
-</button>
-
-<button onclick="window.open('Muzik/index.html')">
-<img src="https://freeapk.mobi/upload/icons/4f/6d/4f6dfe149e9f8f09e3a7b11a4c5e2f8a.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Muzik Test</h2>
-</button>
-
-
-<button onclick="window.open('Muzik/Ugur-Isilak/index.html')">
-<img src="https://yt3.googleusercontent.com/ytc/AIdro_m9PDizNinImaQUtB-uWUniH1cyBlTt3TjEMD558w=s900-c-k-c0x00ffffff-no-rj" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Muzik Test 2</h2>
-</button>
-
-<button onclick="window.open('https://betpipotv128.com/kanal/4/canli-mac-izle/Bein-Sports-3')">
-<img src="https://od.lk/s/OTFfMjg1NTk5OTNf/Ben1.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Bein Sporlar</h2>
-</button>
-
-
-
-<button onclick="window.open('999Test/index.html')">
-<img src="https://od.lk/s/OTFfMjg1NTk5OTNf/Ben1.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Test 9</h2>
-</button>
-
-<button onclick="window.open('https://akcamvlt.github.io/Turis-Tv.io/')">
-<img src="https://od.lk/s/OTFfMjg1NTk5OTNf/Ben1.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Test 10</h2>
-</button>
-
-
-<button onclick="window.open('https://m.canlitvizle.one/')">
-<img src="https://od.lk/s/OTFfMjg1NTk5OTNf/Ben1.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Turis 1</h2>
-</button>
-
-
-<button onclick="window.open('Turis-Test/index.html')">
-<img src="https://od.lk/s/OTFfMjg1NTk5OTNf/Ben1.png" style="border-radius: 8px;" height="80px" width="80px" vspace="5px" />
-<h2>Turis Test</h2>
-</button>
+  
+  <a><button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://dogus-live.daioncdn.net/kralpoptv/kralpoptv.m3u8')"><img src="https://i.imgur.com/tjlSkyp.jpg" height="20" width="30">KRAL POP</button>
+   
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8')"><img src="https://i.imgur.com/boVFg14.jpg" height="20" width="30">MAVI KARADENIZ</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://sosyoapp-live.cdnnew.com/sosyo/buraya-bir-isim-verin.m3u8')"><img src="https://i.imgur.com/svfSv3O.jpg" height="20" width="30">MILJON TV</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://az2.canlitvplayer.com/azerbaijan/muztv/chunks.m3u8')"><img src="https://f9q4g5j6.ssl.hwcdn.net/606e0f9a9739652ec518e8c1" height="20" width="30">MUZ TV</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8')"><img src="https://i.imgur.com/MIVPvXa.png" height="20" width="30">POWER DANCE</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8')"><img src="https://i.imgur.com/ixywxhs.jpg" height="20" width="30">POWER LOVE</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist.m3u8')"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Black_Jesus_title_card.png" height="20" width="30">POWER TV</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playist.m3u8')"><img src="https://i.imgur.com/yngqRL8.png" height="20" width="30">POWER TÛRK AKUSTIK</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://listen.powerapp.com.tr/pturkslow/slow.smil/chunklist_b1028000_sltur.m3u8?nimblesessionid=1382128269')"><img src="https://i.imgur.com/yngqRL8.png" height="20" width="30">POWER TÛRK SLOW</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playist.m3u8" height="20" width="30">POWER TÛRK TAPTAZE</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist.m3u8')"><img src="https://i.imgur.com/4pEmcFH.png" height="20" width="30">POWER TÜRK</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://yayin.rizeturk.com:3777/multi_web/play.m3u8')"><img src="https://f9q4g5j6.ssl.hwcdn.net/602dd011302f4d7da05d4bf3" height="20" width="30">RIZE TÛRK</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8')"><img src="https://www.adweek.com/wp-content/uploads/2019/12/quicktake-bloomberg-tictoc-CONTENT-2019-640x360.jpg" height="20" width="30">TATLISES</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://tv-trtmuzik.medya.trt.com.tr/master.m3u8')"><img src="http://cdn-profiles.tunein.com/s47135/images/logog.png" height="20" width="30">TRT MÛZIK</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px; -webkit-border-image:url(border.png) 30 30 repeat;"
+onclick="play('https://ssh101.bozztv.com/ssh101/yansiimamuziktv/chunks.m3u8')"><img src="https://i.imgur.com/lhjj94a.png" height="20" width="30">YANSIMA MÛZIK </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://ssh101.bozztv.com/ssh101/yansimamuzik/chunks.m3u8')"><img src="https://i.imgur.com/YbD8uHc.png" height="20" width="30">YANSIMA MÛZIK</button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://stitcheraws.unreel.me/wse-node02.powr.com/live/5d4b21643f4d602ba521b06c/playlist.m3u8')"><img src="https://i.imgur.com/Ths3dIy.png" height="20" width="30"> Bumblebee Movies </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://bk7l2w4nlx53-hls-live.5centscdn.com/AETV/514c04b31b5f01cf00dd4965e197fdda.sdp/playlist.m3u8')"><img src="https://i.imgur.com/zl7Gzwm.png" height="20" width="30"> Cable Hits </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px purple; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livevideo01.cbs8.com/hls/live/2014967/newscasts/live.m3u8')"><img src="https://i.imgur.com/QJyt4n4.jpg" height="20" width="30"> CBS 8 </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livevideo01.10tv.com/hls/live/2013836/newscasts/live.m3u8')"><img src="https://i.imgur.com/Wq4M60P.jpg" height="20" width="30"> CBS 10 </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://wowzaprod3-i.akamaihd.net/hls/live/252233/15b8d438/playlist.m3u8')"><img src="https://i.imgur.com/VFPid91.png" height="20" width="30"> CVTV </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://cheddar-cheddar-3.roku.wurl.com/manifest/playlist.m3u8')"><img src="https://f9q4g5j6.ssl.hwcdn.net/607766d942e7e542aa73ddf2" height="20" width="30"> Cheddar </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://circle-roku.amagi.tv/playlist.m3u8')"><img src="https://web.opendrive.com/api/v1/download/file.json/MF8yMjY2MjYwMTlf?inline=1" height="20" width="30"> Circle </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c7e2531932c8368bdbfd87c/playlist.m3u8')"><img src="https://i.imgur.com/Ge5SMLV.png" height="20" width="30"> Civilized </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://cdn-katz-networks-01.vos360.video/Content/HLS/Live/channel(courttv)/index.m3u8')"><img src="https://f9q4g5j6.ssl.hwcdn.net/60526b849849524498245b78" height="20" width="30"> Court TV </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://crimetimebamca-roku.amagi.tv/playlist.m3u8')"><img src="https://i.imgur.com/cQxKMMJ.jpg" height="20" width="30"> Crime Time </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://video.oct.dc.gov/out/u/DCN.m3u8')"><img src="https://i.imgur.com/GcSXd5s.png" height="20" width="30"> DCN </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/master.m3u8')"><img src="https://i.imgur.com/5X5Z5eg.png" height="20" width="30"> Docurama </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://edgesport-samsungus.amagi.tv/playlist.m3u8')"><img src="https://i.imgur.com/AjRCYwR.png" height="20" width="30"> EDGE Sport </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://dai2.xumo.com/amagi_hls_data_xumo1212A-electricnow/CDN/master.m3u8')"><img src="https://od.lk/s/MF8yMjgzOTI0NjRf/ElectricNow_300x300.png" height="20" width="30"> Electric Now </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://etlive-mediapackage-fastly.cbsaavideo.com/dvr/manifest.m3u8')"><img src="https://i.imgur.com/TXamgdB.png" height="20" width="30"> Entertainment Tonight </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://estv-rakuten-samsung.amagi.tv/playlist.m3u8')"><img src="https://i.imgur.com/B3oElWL.jpg" height="20" width="30"> ESTV </button> 
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://fidotv-roku.amagi.tv/playlist.m3u8')"><img src="https://i.imgur.com/kvdqP3H.jpg" height="20" width="30"> Fido TV </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livevideo01.myfoxzone.com/hls/live/2017381/newscasts/live.m3u8')"><img src="https://i.imgur.com/TSTAkkq.jpg" height="20" width="30"> Fox 15 </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://livevideo01.fox43.com/hls/live/2011656/newscasts/live.m3u8')"><img src="https://i.imgur.com/kRaIhOa.jpg" height="20" width="30"> Fox 43 </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://fueltv-fueltv-2-gb.samsung.wurl.com/manifest/playlist.m3u8')"><img src="https://i.imgur.com/XboGSjX.png" height="20" width="30"> Fuel TV </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://vcngfcssai.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8')"><img src="https://i.imgur.com/s4eGYEP.jpg" height="20" width="30"> Global Fashion TV </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://futuretoday-happykids-1-eu.rakuten.wurl.com/manifest/playlist.m3u8')"><img src="http://vignette3.wikia.nocookie.net/logosfake/images/9/90/Happy_Kids_logo_2004.png/revision/latest?cb=20140525234116" height="20" width="30"> Happy Kids </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://hdtv.prod2.ioio.tv/broker/play/de245a96-516c-413d-81e9-419c05bbc6a7.m3u8')"><img src="https://i.imgur.com/DQOp8Ft.png" height="20" width="30"> Harley Davidson Racing TV </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://amc-ifc-films-picks-1.imdbtv.wurl.com/manifest/playlist.m3u8')"><img src="https://i.imgur.com/yngqRL8.png" height="20" width="30"> IFC Films Pick </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://ign-plex.amagi.tv/hls/amagi_hls_data_ignAAAAAA-ign-plexA/CDN/playlist.m3u8')"><img src="https://i.imgur.com/ff62vtM.jpg" height="20" width="30"> IGN </button>  
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://legochannel-roku.amagi.tv/playlist.m3u8')"><img src="https://i.imgur.com/xePwW13.png" height="20" width="30"> Lego Channel </button>
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://5f3491c50b093e00015a3c4c-samsung.eu.ssai.zype.com/5f3491c50b093e00015a3c4c_samsung_eu/manifest.m3u8')"><img src="http://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" height="20" width="30"> VEVO Pop </button> 
+  <button style="border= solid 5px; box-shadow: 1px 1px 5px 1px blue; border-radius: 0px 10px 0px 10px;;"
+onclick="play('https://magselect-stirr.amagi.tv/playlist1080p.m3u8')"><img src="https://www.arthouseconvergence.org/wp-content/uploads/2015/12/cinelife.png" height="20" width="30"> CIneLife </button> 
+    
 
 
 
@@ -418,19 +134,86 @@ background-image: -webkit-linear-gradient(top, #bc1115 100%, #000 100%);
 
 
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<p id="version"></p>
+<p id="info"></p>
+<script src="//cdn.jsdelivr.net/npm/cdnbye@latest"></script>
+<script src="//cdn.jsdelivr.net/npm/openplayerjs@2.0.0"></script> </body>
 
 <script>
-function openNav() {
-document.getElementById("mySidenav").style.width = "250px";
-}
+  var player = document.getElementById('player'); function play(video,poster){  player.src=video;  player.poster=poster;}
+  
+  
+  var player = new OpenPlayer('video', {
+     hls: { debug: false,
+            // Other hlsjsConfig options provided by hls.js
+     p2pConfig: {live: true,        
+            // set to false in vod mode
+     getStats: function (totalP2PDownloaded, totalP2PUploaded, totalHTTPDownloaded) {
+                   ;          },
+                // Other p2pConfig options provided by CDNBye
+            }     }    });    player.init(); </script> </html>
 
-function closeNav() {
-document.getElementById("mySidenav").style.width = "0";
+  
+<script language="JavaScript">
+<!--
+var TRange=null;
+
+function findString (str) {
+ if (parseInt(navigator.appVersion)<4) return;
+ var strFound;
+ if (window.find) {
+
+  // CODE FOR BROWSERS THAT SUPPORT window.find
+
+  strFound=self.find(str);
+  if (!strFound) {
+   strFound=self.find(str,0,1);
+   while (self.find(str,0,1)) continue;
+  }
+ }
+ else if (navigator.appName.indexOf("Microsoft")!=-1) {
+
+  // EXPLORER-SPECIFIC CODE
+
+  if (TRange!=null) {
+   TRange.collapse(false);
+   strFound=TRange.findText(str);
+   if (strFound) TRange.select();
+  }
+  if (TRange==null || strFound==0) {
+   TRange=self.document.body.createTextRange(); 
+   strFound=TRange.findText(str);
+   if (strFound) TRange.select(); 
+  }
+ }
+ else if (navigator.appName=="Opera") {
+  alert ("SEM SUPORTE PARA OPERA")
+  return; 
+ }
+ if (!strFound) alert ("NADA ENCONTRADO!")
+ return;
 }
+  
+
+//-->
 </script>
-</div>
-</div>
-</div>
-</header>
+<!-- partial -->
+  
 </body>
+</html>
