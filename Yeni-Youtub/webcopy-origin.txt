@@ -1,0 +1,88 @@
+Uri: http://azrotv.com/favicon.ico
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\favicon.ico
+Content Type: image/x-icon
+
+Uri: http://azrotv.com/fichiers/logo.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\fichiers\logo.png
+Content Type: image/png
+
+Uri: http://azrotv.com/fichiers/styles/oui9.css?v=28
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\fichiers\styles\oui9.css
+Content Type: text/css
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/6m.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\6m.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/almayadeen.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\almayadeen.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/asharqdoc.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\asharqdoc.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/dmcd.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\dmcd.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/egy-Rcm.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\egy-Rcm.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/elhiwarettounsi.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\elhiwarettounsi.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/m-masr2.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\m-masr2.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/mb4.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\mb4.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/mba.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\mba.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/mdplus.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\mdplus.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/oman_cultural.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\oman_cultural.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/rts.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\rts.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/images/ar_jpg/zeeal.jpg
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\images\ar_jpg\zeeal.jpg
+Content Type: image/jpeg
+
+Uri: http://azrotv.com/iphone/news/ch/France24fr.php
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\iphone\news\ch\France24fr.php.html
+Content Type: text/html
+
+Uri: http://azrotv.com/sitemap.xml
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\sitemap.xml
+Content Type: application/xml
+
+Uri: http://sstatic1.histats.com/0.gif?4388745&101
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\0.gif
+Content Type: image/gif
+
+Uri: https://fundingchoicesmessages.google.com/i/pub-5495676516426812?ers=1
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\i\pub-5495676516426812
+Content Type: application/javascript
+
+Uri: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5495676516426812
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\pagead\js\f.txt
+Content Type: text/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-1Y3QZX10D2
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (20)\Nieuwe map\Nieuwe map\Nieuwe map\azrotv.com\gtag\js
+Content Type: application/javascript
+
