@@ -2,100 +2,35 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Turis Tv</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>CodePen - A Pen by Fernando Rodriguez</title>
+  <link rel='stylesheet' href='https://dl.dropboxusercontent.com/s/xnq3n92kyjbqhzy/video-js.regio_news_v-1.0.css'>
+<link rel='stylesheet' href='https://dl.dropboxusercontent.com/s/z3x2z5e7i071t24/latinflixtvstylesheet.css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 <body>
-
-
-
-
-
-
-
-
-
-
-
 <!-- partial:index.partial.html -->
-<html>
 <head>
-	<title>HLS Player with Playlist and Posters</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://dl.dropboxusercontent.com/s/xnq3n92kyjbqhzy/video-js.regio_news_v-1.0.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/video.js"></script>
+ <link href="https://dl.dropboxusercontent.com/s/z3x2z5e7i071t24/latinflixtvstylesheet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-resolution-switcher/0.4.2/videojs-resolution-switcher.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/3.0.2/videojs-contrib-hls.js"></script>
+    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/g56oefwreffgcn5/videojs-resolution-switcher%252Fnode_modules%252Fvideojs-resolution-switcher%252Flib%252Femsgvideojs-resolution-switcher.css " />
 </head>
+
 <body>
-	<div class="player-wrapper">
-		<div class="playlist-wrapper">
-			<ul id="playlist">
-				<li class="active" data-url="https://tv-trt1.medya.trt.com.tr/master_720.m3u8">
-					<img src="1.png">
+<video id="latinflixtv_player" class="video-js vjs-latinflixtv-skin" controls autoplay preload="auto" width="100%" height="100%"
+poster="https://4.bp.blogspot.com/-37A1x4atRI8/WHhbBawjj4I/AAAAAAAAAZk/orpdBjzAtEMVcOUltqXolSmteMKCY0wQQCLcB/s320/Sin%2Bt%25C3%25ADtulo-3HJ.png" data-setup='{"aspectRatio":"16:9"}'>
+   <source src="https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8" type="application/x-mpegURL">
+</video>
 
-<font size="5" color="green"></font> <font size="2" color="cyan">1</font>
 
-			</ul>
-		</div>
-    <div class="player-container">
-    <video id="hls-player" controls></video>
-  </div>
-
-	</div>   
-
-	<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-	<script src="script.js"></script>
+<script>
+    videojs('latinflixtv_player').videoJsResolutionSwitcher()
+</script>
 </body>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-a {
-  text-decoration: none;
-  padding: 15px 16px;}
-a:hover {
-  background-color: #ddd;
-  color: black;}
-
-.previous {
-  background-color: #19F1E0;
-  color: black;}
-
-.next {
-  background-color: #19F1E0;
-  color: black;}
-
-.round {
-  border-radius: 50%;}
-</style>
-</head>
-<body>
-
-
-
-  
-</body>
-</html> 
-
-<br><br><br><br>
-<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet"><div class="ctn">
-
-<footer><a href="https://meeeetm.github.io/mt.io/500-Yeni/index.html" class="button b-red" target="_blank">Ana Sayfa</a></footer>
-
-</a>
-
-
-
-<header>
-   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-</header>
-<div class="frame">
-
-</div>
-
-
-
-
-</html>
 <!-- partial -->
-  <script  src="./script.js"></script>
-
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/video.js'></script>
 </body>
 </html>
