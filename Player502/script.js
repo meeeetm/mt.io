@@ -7,6 +7,15 @@ const channels = [
     channelName: "360 Tv",
     src: "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
   },
+
+  {
+    channelName: "Kemal Sunal",
+    src: "https://ythls.armelin.one/video/hfx8H7YrmTw.m3u8",
+  },
+
+
+
+
   {
     channelName: "Yol Tv",
     src: "https://stream.yol.tv:9443/medialive/yol.m3u8",
