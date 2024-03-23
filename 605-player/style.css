@@ -1,5 +1,5 @@
 body {
-	background-image: linear-gradient(to right, #2B5876 , #4E4376);
+	background-image: linear-gradient(to right, #000000 , #000000);
 	color: #fff;
 }
 
@@ -14,13 +14,14 @@ h1 {
 }
 
 #myVideo {
-	width: 50%;
-    border: 5px solid #00c7ff;
+	width: 100%;
+    border: 1px solid #000000;
     margin: 0 auto;
     height: 60vh;
 }
 
 button.vjs-big-play-button {
+<video controls autoplay>
     margin: 0 auto;
     text-align: center;
     display: flex;
