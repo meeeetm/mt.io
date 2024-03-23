@@ -1,8 +1,47 @@
-.container {
-  padding-top: 18vh;
-	margin: 20px auto;
-    width: 600px;
+/* customized error display and message */
+.flowplayer.is-offline .fp-controls,
+.flowplayer.is-offline .fp-play {
+  display: none !important;
 }
-video {
-	width: 100%;
+.flowplayer.is-offline .fp-message {
+  color: transparent; /* hides engine prefix of message */
+  width: 100%;
+  height: 100%;
+  background-image: url(https://demos.flowplayer.com/media/img/interruption.png);
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flowplayer.is-offline .fp-message h2,
+.flowplayer.is-offline .fp-message p {
+  font-weight: bold;
+  color: #000;
+  text-shadow: 1px 1px #fff
+}
+.flowplayer.is-offline .fp-message h2 {
+  margin-top: 15%;
+  font-size: 120%;
+}
+
+
+
+.flowplayer .fp-mute {
+    position: relative;
+    width: 10px;
+    height: 15px;
+    float: left;
+    top: -5px;
+    cursor: pointer;
+    background-position: -2px -99px;
+}
+
+.flowplayer, .fp-color, .flowplayer.is-ready, .fp-player{
+  background-color: #333 !important;
+}
+ 
+.flowplayer .fp-buffer,
+.flowplayer .fp-progress,
+.flowplayer .fp-volumebar,
+.flowplayer .fp-bar {
+  cursor: pointer;
 }

@@ -1,49 +1,117 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const video = document.querySelector("video");
-  const source = video.getElementsByTagName("source")[0].src;
+window.onload = function () {
+ 
+  var container = document.getElementById("live"),
+      player,
+      initialDelay = 10,
+      timer,
+      // clone default errors for customization
+      customErrors = flowplayer.defaults.errors.slice(0),
+      //customError = "<h2>We are sorry, currently no live stream available.</h2>"
+      //            + "<p>Retrying in <span>" + initialDelay + "</span> seconds ...</p>",
+      // preload error image; case: user disconnects
+      errImage = new Image();
+ 
+  //customErrors[2] = customError;
+  //customErrors[4] = customError;
+ 
+  player = flowplayer(container, {
+
+    // use custom errors 2 and 4
+    errors: customErrors,
+    ratio: 9/16,
+    mutedAutoplay: false,
+    key: "$366314822078578",
+    autoplay: true,
+    splash: true,
+    live: true,
+    dvr: true,
+    share: false,
+    clip: {
+      
+      live: true,
+      dvr: true,
+      hlsjs: {
+        xhrSetup: function (xhr, url) {
+          var isPlaylist = url.lastIndexOf(".m3u8") === url.length - 5;
+          xhr.addEventListener("error", function () {
+            if (isPlaylist) {
+              // intentionally throw Network error
+              player.trigger("error", [player, {code: 2}]);
+            }
+          });
+          xhr.addEventListener("readystatechange", function (e) {
+            var xstatus = e.currentTarget.status;
+            if (isPlaylist && xhr.readyState === 4 && xstatus >= 400 && xstatus < 499) {
+              // intentionally throw Video file not found error
+              player.trigger("error", [player, {code: 4}]);
+            }
+          });
+        }
+      },
+      flashls: {
+        // limit amount of retries to load hls manifests in Flash
+        manifestloadmaxretry: 1
+      },
+      sources: [
+        { type: "application/x-mpegurl",
+          src:  "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8" }
+      ]
+    }
+ 
+  }).on("error", function (e, api, err) {
+    var delay = initialDelay;
+    console.info("code: " + e.code + ", message: " + e.message);
+    clearInterval(timer);
+ 
+    if (err.code === 2 || err.code === 4) {
+      container.className += " is-offline";
+ 
+      if (flowplayer.support.flashVideo) {
+        api.one("flashdisabled", function () {
+          container.querySelector(".fp-flash-disabled").style.display = "none";
+        });
+      }
+ 
+      timer = setInterval(function () {
+        var messageElement = container.querySelector(".fp-ui .fp-message");
+ 
+        delay -= 1;
+ 
+        if (delay && messageElement) {
+          messageElement.querySelector("span").innerHTML = delay;
+          // only for disconnected user:
+          messageElement.style.backgroundImage = "url(" + errImage.src + ")";
+        } else {
+          clearInterval(timer);
+          api.error = api.loading = false;
+          if (messageElement) {
+            container.querySelector(".fp-ui").removeChild(messageElement);
+          }
+          container.className = container.className.replace(/\bis-(error|offline)\b/g, "");
+          api.load();
+        }
+ 
+      }, 1000);
+    }
   
-  // For more options see: https://github.com/sampotts/plyr/#options
-  // captions.update is required for captions to work with hls.js
-  const defaultOptions = {};
+  //});
+  }).on("load", function (e, api, video) {
+      // disable API for pre-roll
+      console.log(video);
+      console.log(e);
+      console.log(api);
 
-  if (Hls.isSupported()) {
-    // For more Hls.js options, see https://github.com/dailymotion/hls.js
-    const hls = new Hls();
-    hls.loadSource(source);
-
-    // From the m3u8 playlist, hls parses the manifest and returns
-    // all available video qualities. This is important, in this approach,
-    // we will have one source on the Plyr player.
-    hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
-
-      // Transform available levels into an array of integers (height values).
-      const availableQualities = hls.levels.map((l) => l.height)
-
-      // Add new qualities to option
-      defaultOptions.quality = {
-        default: availableQualities[0],
-        options: availableQualities,
-        // this ensures Plyr to use Hls to update quality level
-        forced: true,        
-        onChange: (e) => updateQuality(e),
-      }
-
-      // Initialize here
-      const player = new Plyr(video, defaultOptions);
+      api.load();
+     
+      console.info("code: " + e.code + ", message: " + e.msg);
+      
+      // info for demo purposes only
+      //document.getElementById("live").innerHTML =
+      //api.engine.engineName + " engine playing " + video.src;
+   
     });
-    hls.attachMedia(video);
-    window.hls = hls;
-  } else {
-    // default options with no quality update in case Hls is not supported
-    const player = new Plyr(video, defaultOptions);
-  }
-
-  function updateQuality(newQuality) {
-    window.hls.levels.forEach((level, levelIndex) => {
-      if (level.height === newQuality) {
-        console.log("Found quality match with " + newQuality);
-        window.hls.currentLevel = levelIndex;
-      }
-    });
-  }
-});
+  // preload error image in case of network timeouts
+  errImage.src = "https://demos.flowplayer.com/media/img/interruption.png";
+ 
+ 
+};
