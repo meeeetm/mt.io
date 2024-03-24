@@ -88,8 +88,8 @@ li:hover {
 
 
 #playlist li {
-	flex: 1 0 100px;
-	margin: 1px;
+	flex: 1 0 40px;
+	margin: -7px;
 	background-color: transparent;
 	border-radius: 5px;
 	padding: 10px;
@@ -101,9 +101,9 @@ li:hover {
 
 #playlist li img {
   min-width:80px;
-  max-width:100px;
-  min-height:80px;
-  max-height:80px;
+  max-width:80px;
+  min-height:70px;
+  max-height:70px;
   height: auto;
   object-fit: contain;
   margin-bottom: 0px;
