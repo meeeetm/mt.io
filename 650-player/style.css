@@ -143,33 +143,3 @@ li:hover {
 
 
 
-ul {
-  margin: 0px;
-  padding: 0x;
-  list-style-type: none;
-  
-}
-
-li a {
-  width: 80px;
-  heigt: 10px;
-  background-color: #162099;
-  padding: 10px;
-  border-left: solid 4px #fff;
-  border-bottom: solid 4px #fff;
-  color: #F25409;
-  text-decoration: none;
-  display:inline-block;
-  float: right;
-
-}
-
-li a:hover {
-  color: white;
-  border-left: solid 4px #F2E49;
-  background-color: #54838F
-}
-html {
-  background-color: black;
-}
-
