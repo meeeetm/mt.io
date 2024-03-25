@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -250px;
+  margin-top: -90px;
   height: 100vh;
   }
 
@@ -100,10 +100,10 @@ li:hover {
 }
 
 #playlist li img {
-  min-width:80px;
-  max-width:80px;
-  min-height:70px;
-  max-height:70px;
+  min-width:50px;
+  max-width:50px;
+  min-height:40px;
+  max-height:40px;
   height: auto;
   object-fit: contain;
   margin-bottom: 0px;
