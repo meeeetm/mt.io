@@ -239,62 +239,38 @@
 
             var swiperMansetSlider = document.querySelector(".headline-slider-one .swiper-container").swiper;
 
-            if (item.Url !== "") {
-                var index = item.Index - 1;
+            if (item.Url !== "") { var index = item.Index - 1;var newSlideString = '';if (index != 0) {newSlideString = `
+<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="${item.Index}" role="group" aria-label="${item.Index} / 15" style="width: 559px;">
+<div class="slider-item">
+<div class="wrap-square carouselAd">
+<a href="${item.Url}" target="_blank" class="">
+<img decoding="async" src="${item.Path}" alt="${item.Title}">
+</a>
+</div>`;}else {newSlideString = `
+<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="${item.Index}" role="group" aria-label="${item.Path} / 15" style="width: 559px;">
+<div class="slider-item">
+<div class="wrap-square carouselAd">
+<a href="${item.Url}" target="_blank" class="">
+<img decoding="async" src="${item.Path}" alt="${item.Title}">
+</a>
+</div>`;} var htmlObject = $(newSlideString);
 
-                var newSlideString = '';
+swiperMansetSlider.addSlide(index, htmlObject[0]);
+$('.headline-slider-one .swiper-pagination-bullet').hover(function () {
+swiperMansetSlider.slideTo($(this).text())
+});}}
+</script>
+<div data-mbzone="MansetAdvertorial_Gam" data-wbzone="MansetAdvertorial_Gam"></div>
 
-                if (index != 0) {
-                    newSlideString = `
-                                                                                                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="${item.Index}" role="group" aria-label="${item.Index} / 15" style="width: 559px;">
-                                                                                                                    <div class="slider-item">
-                                                                                                                   <div class="wrap-square carouselAd">
-                                                                                                                        <a href="${item.Url}" target="_blank" class="">
-                                                                                                                                <img decoding="async" src="${item.Path}" alt="${item.Title}">
-                                                                                                                        </a>
-                                                                                                                    </div>`;
-                }
-                else {
-                    newSlideString = `
-                                                                                                                  <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="${item.Index}" role="group" aria-label="${item.Path} / 15" style="width: 559px;">
-                                                                                                                    <div class="slider-item">
-                                                                                                                   <div class="wrap-square carouselAd">
-                                                                                                                        <a href="${item.Url}" target="_blank" class="">
-                                                                                                                                <img decoding="async" src="${item.Path}" alt="${item.Title}">
-                                                                                                                        </a>
-                                                                                                                    </div>`;
-                }
+<link rel="stylesheet" type="text/css" href="site/v3/c/live-broadcast-page.css?v=133.3">
+<link rel="stylesheet" type="text/css" href="site/v3/c/streaming-slider.css?v=133.3">
 
+  <script type="text/javascript">
+  if (typeof GlobalVariables === 'undefined')
+  GlobalVariables = {};
 
-                var htmlObject = $(newSlideString);
-
-                swiperMansetSlider.addSlide(index, htmlObject[0]);
-
-                $('.headline-slider-one .swiper-pagination-bullet').hover(function () {
-                    swiperMansetSlider.slideTo($(this).text())
-                });
-            }
-        }
-            </script>
-
-            <div data-mbzone="MansetAdvertorial_Gam" data-wbzone="MansetAdvertorial_Gam"></div>
-
-
-
-
-            
-    <link rel="stylesheet" type="text/css" href="site/v3/c/live-broadcast-page.css?v=133.3">
-    <link rel="stylesheet" type="text/css" href="site/v3/c/streaming-slider.css?v=133.3">
-
-
-            
-    <script type="text/javascript">
-        if (typeof GlobalVariables === 'undefined')
-            GlobalVariables = {};
-
-
-        if (typeof GlobalVariables.CustomDimensions === 'undefined')
-            GlobalVariables.CustomDimensions = {};
+  if (typeof GlobalVariables.CustomDimensions === 'undefined')
+  GlobalVariables.CustomDimensions = {};
 
         var _gaParams = {};
         _gaParams.hitType = "pageView";
@@ -302,8 +278,7 @@
         _gaParams.page = document.location.pathname + document.location.search;
 
         Object.keys(GlobalVariables.CustomDimensions).forEach(function (key) {
-            _gaParams[key] = GlobalVariables.CustomDimensions[key];
-        });
+            _gaParams[key] = GlobalVariables.CustomDimensions[key];});
 
         try {
             if (typeof tmdCheckConsent === "undefined" || tmdCheckConsent('statistics')) {
@@ -315,21 +290,18 @@
                 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
                 ga('create', 'UA-1088682-1', 'auto');
-                ga('send', _gaParams);
-            }
+                ga('send', _gaParams);}
         }
         catch (e)
         {
             
         }
     </script>
-
             
     <script async="" src="gtag/js?id=G-RM5FFY8H5X"></script>
     <script>
         if (typeof GlobalVariables === 'undefined')
             GlobalVariables = {};
-
 
         if (typeof GlobalVariables.CustomDimensions === 'undefined')
             GlobalVariables.CustomDimensions = {};
@@ -1737,7 +1709,7 @@
     <div class="col-6 col-md-4 col-lg-3 mb-4">
         <div class="live-broadcast-box atv">
 
-            <a target="_blank" href="Ulusal/1.html" class="live-broadcast-box-image">
+            <a target="_blank" href="Ulusal/Ulusal/Trt1/index.html" class="live-broadcast-box-image">
                 <img decoding="async" loading="lazy" src="site/v3/i/channel/atv-logo.png" width="152" height="141" alt="ATV">
             </a>
 
