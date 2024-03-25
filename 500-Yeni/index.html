@@ -5,6 +5,121 @@
             
 
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <style>
+      /* Algemene CSS */
+      * {
+        box-sizing: content-box;
+        font-family: Helvetica, Helvetica, Helvetica;
+        color:#ffffff; 
+      }
+
+	/* CSS voor de horizontale menu balk */
+	.menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: space-around;
+        background-color: #ff3366
+          ;
+        font-size: 20px;
+        padding: 50 px;
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 10px;   
+	}
+      
+
+	/* CSS voor de rest van de pagina */
+	body {
+
+		background-size: 100%;
+		background-position: unset;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+	}
+
+	/* CSS voor het transparante blok */
+	.overlay {
+		position: absolute;
+        color: #4F562D ;
+		top: 450px;
+		left: 70;
+		width: 35%;
+		height: 50%;
+		background-color: rgba(0, 0, 0, 0.0);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.overlay-text {
+		text-align: center;
+		color: #4F562D;
+	}
+
+    #button1 {
+     position: absolute;
+	 top: 350px;
+	 left: 220px;
+	 width: 30%;
+	 height: 50px;
+     background-color: #8A923C;
+     color: #D3C7B1;
+     padding: 10px 10px;
+     text-align: center;
+     display: inline-block;
+     cursor: pointer;
+     border: none;
+     
+  }
+
+  .white-square {
+  position: absolute;
+  top: 150%;
+  left: 0;
+  right: -500%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  background-color: #4F562D;
+  opacity: 0.5;
+}
+
+</style>
+
+</head>
+  <body>
+    <div class="menu">
+        <a href="#">Ulusal</a>
+        <a href="#">Müzik</a>
+        <a href="#">Haber</a>
+        <a href="#">Belgesel</a>
+        <a 
+
+      </div>
+
+   </body>
+  </head> 
+</html>     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10.0, user-scalable=yes">
@@ -1618,15 +1733,14 @@
             <div class="live-broadcast-title">
                 <h1>Turis Tv</h1>
             </div>
-    
-
+   
 
 <div class="container">
     <div class="row mb-35">
     <div class="col-6 col-md-4 col-lg-3 mb-4">
         <div class="live-broadcast-box atv">
 
-            <a target="_blank" href="Ulusal/index.html" class="live-broadcast-box-image">
+            <a target="_blank" href="Ulusal/1.html" class="live-broadcast-box-image">
                 <img decoding="async" loading="lazy" src="site/v3/i/channel/atv-logo.png" width="152" height="141" alt="ATV">
             </a>
 
