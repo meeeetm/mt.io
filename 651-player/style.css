@@ -100,10 +100,10 @@ li:hover {
 }
 
 #playlist li img {
-  min-width:50px;
-  max-width:50px;
-  min-height:40px;
-  max-height:40px;
+  min-width:60px;
+  max-width:60px;
+  min-height:50px;
+  max-height:50px;
   height: auto;
   object-fit: contain;
   margin-bottom: 0px;
