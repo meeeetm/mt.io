@@ -143,3 +143,51 @@ li:hover {
 
 
 
+
+body{
+
+}
+h1 {
+
+  color: black;
+  margin: 40px;
+  margin-right:315px;
+  font-size: 90px;
+  text-align: left;
+  }
+ul {
+  margin: 0px;
+  padding: 0x;
+  list-style-type: none;
+ 
+  
+}
+li a {
+  width: 40px;
+  hight: 18px;
+  background-color: black;
+  padding: 20px;
+  border-left: solid 4px white;
+  color: #F2E4C9;
+  text-decoration: none;
+  display:inline-block;
+  float:left;
+  }
+li a:hover {
+ color: black;
+  border-left: solid 4px #F2E4C9;
+  background-color: white;
+}
+
+p{
+  color:black;
+  background-color: lightgray;
+  font-size: 40px;
+  text-align: left;
+  margin: 40px;
+  margin-right:315px;
+  padding: 0x;
+  margin-top: 150px;
+  
+}
+
