@@ -163,11 +163,11 @@ ul {
   
 }
 li a {
-  width: 40px;
+  width: 50px;
   hight: 18px;
   background-color: black;
   padding: 20px;
-  border-left: solid 4px white;
+  border-left: solid 12px white;
   color: #F2E4C9;
   text-decoration: none;
   display:inline-block;
@@ -190,4 +190,3 @@ p{
   margin-top: 150px;
   
 }
-
