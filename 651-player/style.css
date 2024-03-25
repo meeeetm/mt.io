@@ -33,16 +33,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 0px;
-  height: 50vh;
+  margin-top: -250px;
+  height: 100vh;
   }
 
 .playlist-wrapper {
 	display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:0px;
-  max-width: 0px;
+  margin-top:300px;
+  max-width: 1000px;
 }
 
 
@@ -59,7 +59,7 @@ li {
   list-style: none;
   padding: 0;
   max-width: 1000px;
-	margin: 0px;
+	margin: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -89,10 +89,10 @@ li:hover {
 
 #playlist li {
 	flex: 1 0 40px;
-	margin: 0px;
+	margin: -7px;
 	background-color: transparent;
 	border-radius: 5px;
-	padding: 0px;
+	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -100,14 +100,14 @@ li:hover {
 }
 
 #playlist li img {
-  min-width:0px;
-  max-width:0px;
-  min-height:0px;
-  max-height:0px;
+  min-width:80px;
+  max-width:80px;
+  min-height:70px;
+  max-height:70px;
   height: auto;
   object-fit: contain;
   margin-bottom: 0px;
-  border-radius: 0%;
+  border-radius: 10%;
   object-fit: cover;
 }
 
