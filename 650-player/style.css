@@ -151,12 +151,12 @@ ul {
 }
 
 li a {
-  width: 50px;
+  width: 80px;
   heigt: 10px;
   background-color: #162099;
-  padding: 20px;
-  border-left: solid 4px #54838F;
-  border-bottom: solid 4px #54838F;
+  padding: 10px;
+  border-left: solid 4px #fff;
+  border-bottom: solid 4px #fff;
   color: #F25409;
   text-decoration: none;
   display:inline-block;
