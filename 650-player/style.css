@@ -121,3 +121,55 @@ li:hover {
   align-items: center;
   height: 100vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  margin: 0px;
+  padding: 0x;
+  list-style-type: none;
+  
+}
+
+li a {
+  width: 50px;
+  heigt: 10px;
+  background-color: #162099;
+  padding: 20px;
+  border-left: solid 4px #54838F;
+  border-bottom: solid 4px #54838F;
+  color: #F25409;
+  text-decoration: none;
+  display:inline-block;
+  float: right;
+
+}
+
+li a:hover {
+  color: white;
+  border-left: solid 4px #F2E49;
+  background-color: #54838F
+}
+html {
+  background-color: black;
+}
+
