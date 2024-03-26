@@ -87,12 +87,13 @@
 </head>
   <body>
     <div class="menu">
-
-
+        <a href="index.html">Ulusal</a>
+                <a href="3-Belgesel.html">Belgesel</a>
         <a href="2-haber.html">Haber</a>
-        <a href="3-Belgesel.html">Belgesel</a>
         <a href="1-muzik.html">Müzik</a>
-        <a href="4-Sinema.html">Sinema</a> 
+
+
+
       </div>
 
 
@@ -188,13 +189,26 @@
 
                 <script>
         function tmdCheckConsent(category) {
-            try {if (getCookie('tmd_gdpr') == '0' || getCookie('tmd_gdpr') == '1') {if (typeof Cookiebot !== 'undefined') {if (Cookiebot) {
-            if (Cookiebot.consent) {if (!Cookiebot.consent[category]) {
-            return false;}}
-                            else {var cookiebotConsentCookie = getCookie('CookieConsent');if (cookiebotConsentCookie && cookiebotConsentCookie.indexOf(category + ':false') > -1) {
-                            return false;
-                                }}}}}
-            } catch (ex) { }return true;
+            try {
+                if (getCookie('tmd_gdpr') == '0' || getCookie('tmd_gdpr') == '1') {
+                    if (typeof Cookiebot !== 'undefined') {
+                        if (Cookiebot) {
+                            if (Cookiebot.consent) {
+                                if (!Cookiebot.consent[category]) {
+                                    return false;
+                                }
+                            }
+                            else {
+                                var cookiebotConsentCookie = getCookie('CookieConsent');
+                                if (cookiebotConsentCookie && cookiebotConsentCookie.indexOf(category + ':false') > -1) {
+                                    return false;
+                                }
+                            }
+                        }
+                    }
+                }
+            } catch (ex) { }
+            return true;
 
             function getCookie(cname) {
                 var name = cname + "=";
@@ -207,8 +221,11 @@
                     }
                     if (c.indexOf(name) == 0) {
                         return c.substring(name.length, c.length);
-                    }}
-                return "";}}
+                    }
+                }
+                return "";
+            }
+        }
     </script>
             <script async="" src="tmd-consent/j/tmdconsent-v2.2.js?v=649"></script>
             <script src="prayertimes/tmdprayercounter/tmdprayercounter.js?v=649"></script>
@@ -277,14 +294,20 @@ swiperMansetSlider.slideTo($(this).text())
 
                 ga('create', 'UA-1088682-1', 'auto');
                 ga('send', _gaParams);}
-        }catch (e){}
+        }
+        catch (e)
+        {
+            
+        }
     </script>
             
     <script async="" src="gtag/js?id=G-RM5FFY8H5X"></script>
     <script>
-        if (typeof GlobalVariables === 'undefined')GlobalVariables = {};
+        if (typeof GlobalVariables === 'undefined')
+            GlobalVariables = {};
 
-        if (typeof GlobalVariables.CustomDimensions === 'undefined') GlobalVariables.CustomDimensions = {};
+        if (typeof GlobalVariables.CustomDimensions === 'undefined')
+            GlobalVariables.CustomDimensions = {};
 
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -315,17 +338,22 @@ swiperMansetSlider.slideTo($(this).text())
                         , 'cd6': typeof customDimensions.dimension6 != 'undefined' ? customDimensions.dimension6 : typeof customDimensions.cd6 != 'undefined' ? customDimensions.cd6 : ''
                         , 'cd7': typeof customDimensions.dimension7 != 'undefined' ? customDimensions.dimension7 : typeof customDimensions.cd7 != 'undefined' ? customDimensions.cd7 : ''
                         , 'cd8': typeof customDimensions.dimension8 != 'undefined' ? customDimensions.dimension8 : typeof customDimensions.cd8 != 'undefined' ? customDimensions.cd8 : ''
-                    });}
+                    });
+                }
                 else {
                     gtag('event', 'page_view', {
                         'page_title': _ga4DocumentTitle
                         , 'page_path': document.location.pathname + document.location.search
                         , 'send_to': 'G-RM5FFY8H5X'
-                    });}
-            } catch (e) { console.error(e) }}
+                    });
+                }
+            } catch (e) { console.error(e) }
+        }
 
         function sendPageViewGA4(customDimensions, url) {
-            try {if (typeof (customDimensions) != "undefined" && customDimensions != null) {gtag('event', 'page_view', {
+            try {
+                if (typeof (customDimensions) != "undefined" && customDimensions != null) {
+                    gtag('event', 'page_view', {
                         'page_title': _ga4DocumentTitle
                         , 'page_path': url
                         , 'send_to': 'G-RM5FFY8H5X'
@@ -337,17 +365,21 @@ swiperMansetSlider.slideTo($(this).text())
                         , 'cd6': typeof customDimensions.dimension6 != 'undefined' ? customDimensions.dimension6 : typeof customDimensions.cd6 != 'undefined' ? customDimensions.cd6 : ''
                         , 'cd7': typeof customDimensions.dimension7 != 'undefined' ? customDimensions.dimension7 : typeof customDimensions.cd7 != 'undefined' ? customDimensions.cd7 : ''
                         , 'cd8': typeof customDimensions.dimension8 != 'undefined' ? customDimensions.dimension8 : typeof customDimensions.cd8 != 'undefined' ? customDimensions.cd8 : ''
-                    });}
+                    });
+                }
                 else {
                     gtag('event', 'page_view', {
                         'page_title': _ga4DocumentTitle
                         , 'page_path': url
                         , 'send_to': 'G-RM5FFY8H5X'
-                    });}
-            } catch (e) { console.error(e) }}
+                    });
+                }
+            } catch (e) { console.error(e) }
+        }
 
         function sendActionGA4(eventCategory, eventAction, eventLabel, value) {
-            try {if (typeof (value) != "undefined" && value != null) {
+            try {
+                if (typeof (value) != "undefined" && value != null) {
                     gtag('event', eventAction, {
                         'page_title': _ga4DocumentTitle
                         , 'page_path': document.location.pathname + document.location.search
@@ -355,7 +387,8 @@ swiperMansetSlider.slideTo($(this).text())
                         , 'event_category': eventCategory
                         , 'event_label': eventLabel
                         , 'value': value
-                    });}
+                    });
+                }
                 else {
                     gtag('event', eventAction, {
                         'page_title': _ga4DocumentTitle
@@ -363,11 +396,15 @@ swiperMansetSlider.slideTo($(this).text())
                         , 'send_to': 'G-RM5FFY8H5X'
                         , 'event_category': eventCategory
                         , 'event_label': eventLabel
-                    });}
-            } catch (e) { console.error(e) }}
+                    });
+                }
+            } catch (e) { console.error(e) }
+
+        }
 
         function sendActionGA4WithCD(eventCategory, eventAction, eventLabel, value, cdList) {
-            try {if (typeof (value) != "undefined" && value != null) {
+            try {
+                if (typeof (value) != "undefined" && value != null) {
                     gtag('event', eventAction, {
                         'page_title': _ga4DocumentTitle
                         , 'page_path': document.location.pathname + document.location.search
@@ -383,7 +420,8 @@ swiperMansetSlider.slideTo($(this).text())
                         , 'cd6': typeof cdList[5] != 'undefined' ? cdList[5] : ''
                         , 'cd7': typeof cdList[6] != 'undefined' ? cdList[6] : ''
                         , 'cd8': typeof cdList[7] != 'undefined' ? cdList[7] : ''
-                    });}
+                    });
+                }
                 else {
                     gtag('event', eventAction, {
                         'page_title': _ga4DocumentTitle
@@ -399,29 +437,60 @@ swiperMansetSlider.slideTo($(this).text())
                         , 'cd6': typeof cdList[5] != 'undefined' ? cdList[5] : ''
                         , 'cd7': typeof cdList[6] != 'undefined' ? cdList[6] : ''
                         , 'cd8': typeof cdList[7] != 'undefined' ? cdList[7] : ''
-                    });}
-            } catch (e) { console.error(e) }}
+                    });
+                }
+            } catch (e) { console.error(e) }
+
+        }
 
     </script>
-     
+
+            
     <script>!function () { var t = document.createElement("script"); t.setAttribute("src", 'https://cdn.p.analitik.bik.gov.tr/tracker' + (typeof Intl !== "undefined" ? (typeof (Intl || "").PluralRules !== "undefined" ? '1' : typeof Promise !== "undefined" ? '2' : typeof MutationObserver !== 'undefined' ? '3' : '4') : '4') + '.js'), t.setAttribute("data-website-id", "5f58946a-4277-4235-b6d8-b2b7c28184db"), t.setAttribute("data-host-url", '//5f58946a-4277-4235-b6d8-b2b7c28184db.collector.p.analitik.bik.gov.tr'), document.head.appendChild(t) }();</script>
 
                 <script src="tmd/mobile-detect/md.min.js?v=649" type="text/javascript"></script><script src="tmd/tmdbr.min.js?v=649" type="text/javascript"></script>
             <script async="async" src="tag/js/f.txt"></script><script async="async" src="bd/hb/prebid_v14.js?v=4223321"></script><script>console.log("Headcommon v14.1");
-	var bdTabState=true;var hidden, visibilityChange;if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support hidden = "hidden";
-	  visibilityChange = "visibilitychange";} else if (typeof document.msHidden !== "undefined") {hidden = "msHidden";visibilityChange = "msvisibilitychange";
-	} else if (typeof document.webkitHidden !== "undefined") {hidden = "webkitHidden";visibilityChange = "webkitvisibilitychange";}
+	var bdTabState=true;
+	var hidden, visibilityChange;
+	if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support 
+	  hidden = "hidden";
+	  visibilityChange = "visibilitychange";
+	} else if (typeof document.msHidden !== "undefined") {
+	  hidden = "msHidden";
+	  visibilityChange = "msvisibilitychange";
+	} else if (typeof document.webkitHidden !== "undefined") {
+	  hidden = "webkitHidden";
+	  visibilityChange = "webkitvisibilitychange";
+	}
 
-	function handleVisibilityChange() {if (document[hidden]) {bdTabState = false;//console.log("bdTabState: " + bdTabState);} else {if(!bdWindowHidden){
-	bdTabState=true;//console.log("bdTabState: " + bdTabState);"
-		}}}
+	function handleVisibilityChange() {
+	  if (document[hidden]) {
+		bdTabState = false;
+		//console.log("bdTabState: " + bdTabState);
+	  } else {
+		if(!bdWindowHidden){
+			bdTabState=true;
+			//console.log("bdTabState: " + bdTabState);"
+		}
+	  }
+	}
 	
 	// Warn if the browser doesn't support addEventListener or the Page Visibility API
 	if (typeof document.addEventListener === "undefined" || hidden === undefined) {
 	  console.log("This function requires a browser, such as Google Chrome or Firefox, that supports the Page Visibility API.");
-	  bdTabState=false;} else {// Handle page visibility change   document.addEventListener(visibilityChange, handleVisibilityChange, false);}
+	  bdTabState=false;
+	} else {
+	  // Handle page visibility change   
+	  document.addEventListener(visibilityChange, handleVisibilityChange, false);
+	}
 
-	$(window).focus(function() {bdWindowHidden = false;if(!document[hidden]){ bdTabState=true;//console.log("bdTabState: " + bdTabState); }});
+	$(window).focus(function() {
+	   bdWindowHidden = false;
+	   if(!document[hidden]){
+		   bdTabState=true;
+		   //console.log("bdTabState: " + bdTabState);
+	   }
+	});
 
 	$(window).blur(function() {
 		bdWindowHidden= true;
@@ -1490,7 +1559,8 @@ swiperMansetSlider.slideTo($(this).text())
 					rendered: !!winners.find(function(winner) {
 					return winner.adId==bid.adId;
 					})
-				});});
+				});
+			});
 			
 			pbjsForEach(pbjs.getNoBids && pbjs.getNoBids() || {}, function(code, bid) {
 				hbHistory.push({
@@ -1498,34 +1568,98 @@ swiperMansetSlider.slideTo($(this).text())
 					adunit: code,
 					adId: bid.bidId,
 					bidder: bid.bidder
-				});});
+				});
+			});
 
-			if (hbHistory.length) {if (console.table) {console.table(hbHistory);
-				}else {for (var j = 0; j < hbHistory.length; j++) {console.log(hbHistory[j]);}}hbHistory = [];}else{console.warn('NO prebid responses');}}
+			if (hbHistory.length) {
+				if (console.table) {
+					console.table(hbHistory);
+				}else {
+					for (var j = 0; j < hbHistory.length; j++) {
+						console.log(hbHistory[j]);
+					}
+				}
+				hbHistory = [];
+			}else{
+				console.warn('NO prebid responses');
+			}
+		}
 
 		return {
-			LoadAds: function(el, doRefresh){return loadAds(el,doRefresh);},CalculateThreshold: function(el){return calculateThreshold(el);
-			},FindAdminUrl: function(){return findAdmUrl();},GenerateSlotPath: function(admUrl,st,alt){return generateSlotPath(admUrl,st,alt);
-			},BdGetPathCount: function(){return bdGetPathCount();
-			},BdGetCookie: function(o){return bdGetCookie(o);},BdDeleteCookie: function(o, e, t){return bdDeleteCookie(o, e, t);
-			},BdSetCookie: function(o, e, t, n, i, d){return bdSetCookie(o, e, t, n, i, d);
-			},BdHide970x250: function(){return bdHide970x250();
-			},BdGetHbTimeout: function(hbArr){return getHbTimeout(hbArr);
-			},AdDevLog: function(title, message){return adDevLog(title, message);
-			},GetBiddersBySizeAndNtn: function(sizename,ntnid){return getBiddersBySizeAndNtn(sizename,ntnid);
-			},GetSizeInfo: function(str){return getSizeInfo(str);
-			},GetMediaTypes: function(str){return getMediaTypes(str);
-			},CreateTargetingKeys: function(){return createTargetingKeys();
-			},DefineSlot: function(p,sz,i,sn){return defineSlot(p,sz,i,sn);
-			},SlotRenderEndedCallback: function(event){return slotRenderEndedCallback(event);
-			},ImpressionViewableCallback: function(event){return impressionViewableCallback(event);
-			},SlotVisibilityChangedCallback: function(event){return slotVisibilityChangedCallback(event);
-			},MakeBillboardVisible: function(event){return makeBillboardVisible(event);
-			},InitHb: function(slotArr,hbArr,doRefresh){return initHb(slotArr,hbArr,doRefresh);
-			},InitAdserver: function(slotArr,doRefresh){return initAdserver(slotArr,doRefresh);
-			},GetHbFailSafeTimeout: function(){return getHbFailSafeTimeout();
-			},GetAllBidResponses: function(){return getAllBidResponses();
-			},CloseAdmInterstitial: function(){return console.log('CloseAdmInterstitial');			
+			LoadAds: function(el, doRefresh){
+				return loadAds(el,doRefresh);
+			},
+			CalculateThreshold: function(el){
+				return calculateThreshold(el);
+			},
+			FindAdminUrl: function(){
+				return findAdmUrl();
+			},
+			GenerateSlotPath: function(admUrl,st,alt){
+				return generateSlotPath(admUrl,st,alt);
+			},
+			BdGetPathCount: function(){
+				return bdGetPathCount();
+			},
+			BdGetCookie: function(o){
+				return bdGetCookie(o);
+			},
+			BdDeleteCookie: function(o, e, t){
+				return bdDeleteCookie(o, e, t);
+			},
+			BdSetCookie: function(o, e, t, n, i, d){
+				return bdSetCookie(o, e, t, n, i, d);
+			},
+			BdHide970x250: function(){
+				return bdHide970x250();
+			},
+			BdGetHbTimeout: function(hbArr){
+				return getHbTimeout(hbArr);
+			},
+			AdDevLog: function(title, message){
+				return adDevLog(title, message);
+			},
+			GetBiddersBySizeAndNtn: function(sizename,ntnid){
+				return getBiddersBySizeAndNtn(sizename,ntnid);
+			},
+			GetSizeInfo: function(str){
+				return getSizeInfo(str);
+			},
+			GetMediaTypes: function(str){
+				return getMediaTypes(str);
+			},
+			CreateTargetingKeys: function(){
+				return createTargetingKeys();
+			},
+			DefineSlot: function(p,sz,i,sn){
+				return defineSlot(p,sz,i,sn);
+			},
+			SlotRenderEndedCallback: function(event){
+				return slotRenderEndedCallback(event);
+			},
+			ImpressionViewableCallback: function(event){
+				return impressionViewableCallback(event);
+			},
+			SlotVisibilityChangedCallback: function(event){
+				return slotVisibilityChangedCallback(event);
+			},
+			MakeBillboardVisible: function(event){
+				return makeBillboardVisible(event);
+			},
+			InitHb: function(slotArr,hbArr,doRefresh){
+				return initHb(slotArr,hbArr,doRefresh);
+			},
+			InitAdserver: function(slotArr,doRefresh){
+				return initAdserver(slotArr,doRefresh);
+			},
+			GetHbFailSafeTimeout: function(){
+				return getHbFailSafeTimeout();
+			},
+			GetAllBidResponses: function(){
+				return getAllBidResponses();
+			},
+	        CloseAdmInterstitial: function(){
+	        	return console.log('CloseAdmInterstitial');			
 			}
 		};
 	}());</script><link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="v13/pgnNativeStyle.css"><script async="async" src="v13/pgn-native.js?v=6"></script>
@@ -1548,13 +1682,28 @@ swiperMansetSlider.slideTo($(this).text())
             $('head').append(ele);
         }
 
-            </script></head><body></div></div>
+            </script>
+
+
+        </head>
+
+        <body>
+
+
+    </div>
+</div>
+
+
+
+            
+
+
 
 <div class="container mb-20">
     <div class="row">
         <div class="col-12 mb-2">
             <div class="live-broadcast-title">
-                <h1>Ulusal</h1>
+                <h1>Sinema</h1>
             </div>
    <br><br>
 
@@ -1563,204 +1712,177 @@ swiperMansetSlider.slideTo($(this).text())
     <div class="col-6 col-md-4 col-lg-3 mb-4">
         <div class="live-broadcast-box atv">
 
-            <a target="_blank" href="Ulusal/1-Ulusal/0-Atv/index.html" class="live-broadcast-box-image">
-                <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTI5MTE3Xw/atv-logo.png" width="152" height="141" alt="Atv">
+            <a target="_blank" href="Ulusal/6-Sinema/1-Sinema1/index.html" class="live-broadcast-box-image">
+                <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="152" height="141" alt="Sinema ">
             </a>
-           <div class="live-broadcast-box-text">
+
+            <div class="live-broadcast-box-text">
                 <a target="_blank" href="https://www.atv.com.tr/canli-yayin">
-                    <span>Atv</span>
+                    <span>Sinema </span>
                     <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
                         <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
                     </svg>
 
-                </a></div></div></div>
-           <div class="col-6 col-md-4 col-lg-3 mb-4">
-           <div class="live-broadcast-box minika-cocuk">
-           <a target="_blank" href="Ulusal/1-Ulusal/1-Trt1/index.html" class="live-broadcast-box-image">
-           <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NDg3Mjc2Xw/1-trt1.png" width="169" height="113" alt="Trt 1">
-           </a><div class="live-broadcast-box-text">
-           <a target="_blank" href="https://www.minikacocuk.com.tr/webtv/canli-yayin">
-           <span>Trt 1</span>
-           <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-           <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-              </svg>
-
-                </a></div></div></div>
-           <div class="col-6 col-md-4 col-lg-3 mb-4">
-           <div class="live-broadcast-box anews">
-           <a target="_blank" href="Ulusal/1-Ulusal/2-KanalD/index.html" class="live-broadcast-box-image">
-           <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NDg3MzEyXw/2-kanalD.png" width="123" height="128" alt="Kanal D">
-           </a> <div class="live-broadcast-box-text">
-           <a target="_blank" href="https://www.anews.com.tr/webtv/live-broadcast">
-           <span>Kanal D</span>
-           <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-           <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-              </svg>
-
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box a2">
-            <a target="_blank" href="Ulusal/1-Ulusal/3-Kanal7/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NDg3MzEzXw/3-kanal7.png" width="155" height="167" alt="Kanal 7">
-            </a><div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.aspor.com.tr/canli-yayin-a2tv.html">
-            <span>Kanal 7</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
-
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box aspor">
-            <a target="_blank" href="Ulusal/1-Ulusal/4-Tv8/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NDg3MzE0Xw/4-tv8.png" width="110" height="125" alt="Tv 8">
-            </a><div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.aspor.com.tr/webtv/canli-yayin">
-            <span>Tv 8</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
-
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box apara">
-            <a target="_blank" href="Ulusal/1-Ulusal/5-ShowTv/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NDg3MzE1Xw/5-show.png" width="119" height="131" alt="Show Tv">
-            </a> <div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.apara.com.tr/canli-yayin">
-            <span>Show Tv</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
-
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box a2">
-            <a target="_blank" href="Ulusal/1-Ulusal/6-StarTv/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NDg3MzE2Xw/6-startv1.png" width="155" height="167" alt="Star Tv">
-            </a><div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.aspor.com.tr/canli-yayin-a2tv.html">
-            <span>Star Tv</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
-
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box anews">
-            <a target="_blank" href="Ulusal/1-Ulusal/7-Tv8.5/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMwMDA4Xw/TV_8.5logo.png" width="123" height="128" alt="Tv 8,5">
-            </a> <div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.anews.com.tr/webtv/live-broadcast">
-            <span>Tv 8,5</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
-
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box vavtv">
-            <a target="_blank" href="Ulusal/1-Ulusal/8-Trt2/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMwMjQ0Xw/trt2.png" width="120" height="140" alt="Trt 2">
-            </a><div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.vavtv.com.tr/canli-yayin">
-            <span>Trt 2</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-            </svg>
-
-                </a></div></div></div>
-           <div class="col-6 col-md-4 col-lg-3 mb-4">
-           <div class="live-broadcast-box anews">
-           <a target="_blank" href="Ulusal/1-Ulusal/9-TrtTurk/index.html" class="live-broadcast-box-image">
-           <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMwNjcxXw/TRT_T%C3%BCrk_logosu.png" width="123" height="128" alt="Trt Türk">
-           </a> <div class="live-broadcast-box-text">
-           <a target="_blank" href="https://www.anews.com.tr/webtv/live-broadcast">
-           <span>Trt Türk</span>
-           <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-           <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-              </svg>
+        </a> </div></div></div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box ahaber">
+        <a target="_blank" href="Ulusal/6-Sinema/2-Sinema2/index.html" class="live-broadcast-box-image">
+        <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="118" height="134" alt="Sinema 1">
+        </a>
+       <div class="live-broadcast-box-text">
+       <a target="_blank" href="https://www.ahaber.com.tr/video/canli-yayin">
+       <span>Sinema 1</span>
+       <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+      <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+      </svg>
 
 
-                </a></div></div></div>
-           <div class="col-6 col-md-4 col-lg-3 mb-4">
-           <div class="live-broadcast-box minika-cocuk">
-           <a target="_blank" href="Ulusal/1-Ulusal/10-TrtAvaz/index.html" class="live-broadcast-box-image">
-           <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMxNTY3Xw/TrtAvaz.png" width="169" height="113" alt="Trt Avaz">
-           </a><div class="live-broadcast-box-text">
-           <a target="_blank" href="https://www.minikacocuk.com.tr/webtv/canli-yayin">
-           <span>Trt Avaz</span>
-           <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-           <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-              </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box aspor">
+
+            <a target="_blank" href="Ulusal/6-Sinema/3-Sinema3/index.html" class="live-broadcast-box-image">
+                <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="110" height="125" alt="Sinema 2">
+            </a>
+
+            <div class="live-broadcast-box-text">
+                <a target="_blank" href="https://www.aspor.com.tr/webtv/canli-yayin">
+                    <span>Sinema 2</span>
+                    <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+                        <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+                    </svg>
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box apara">
+
+            <a target="_blank" href="Ulusal/6-Sinema/4-Sinema4/index.html" class="live-broadcast-box-image">
+                <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="119" height="131" alt="Sinema 3">
+            </a>
+
+            <div class="live-broadcast-box-text">
+                <a target="_blank" href="https://www.apara.com.tr/canli-yayin">
+                    <span>Sinema 3</span>
+                    <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+                        <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+                    </svg>
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box a2">
+
+            <a target="_blank" href="Ulusal/6-Sinema/5-Sinema5/index.html" class="live-broadcast-box-image">
+                <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="155" height="167" alt="Sinema 4">
+            </a>
+
+            <div class="live-broadcast-box-text">
+                <a target="_blank" href="https://www.aspor.com.tr/canli-yayin-a2tv.html">
+                    <span>Sinema 4</span>
+                    <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+                        <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+                    </svg>
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box anews">
+
+            <a target="_blank" href="Ulusal/6-Sinema/6-Sinema6/index.html" class="live-broadcast-box-image">
+                <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="123" height="128" alt="Sinema 5">
+            </a>
+
+            <div class="live-broadcast-box-text">
+                <a target="_blank" href="https://www.anews.com.tr/webtv/live-broadcast">
+                    <span>Sinema 5</span>
+                    <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+                        <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+                    </svg>
+
+                  </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box a2">
+
+            <a target="_blank" href="Ulusal/6-Sinema/7-Sinema7/index.html" class="live-broadcast-box-image">
+                <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="155" height="167" alt="Sinema 6">
+            </a>
+
+            <div class="live-broadcast-box-text">
+                <a target="_blank" href="https://www.aspor.com.tr/canli-yayin-a2tv.html">
+                    <span>Sinema 6</span>
+                    <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+                        <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+                    </svg>
 
 
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box a2">
-            <a target="_blank" href="Ulusal/1-Ulusal/11-A2/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMxNzU0Xw/a2-logo.png" width="155" height="167" alt="A2">
-            </a><div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.aspor.com.tr/canli-yayin-a2tv.html">
-            <span>A2</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
 
-              </a></div></div></div>
-           <div class="col-6 col-md-4 col-lg-3 mb-4">
-           <div class="live-broadcast-box anews">
-           <a target="_blank" href="Ulusal/1-Ulusal/12-Teve2/index.html" class="live-broadcast-box-image">
-           <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMzMzM3Xw/teve2.png" width="123" height="128" alt="Teve 2">
-           </a> <div class="live-broadcast-box-text">
-           <a target="_blank" href="https://www.anews.com.tr/webtv/live-broadcast">
-           <span>Teve 2</span>
-           <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-           <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-              </svg>
 
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box a2">
-            <a target="_blank" href="Ulusal/1-Ulusal/13-BeyazTv/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMyMzQ5Xw/BeyazTv.png" width="155" height="167" alt="Beyaz Tv">
-            </a><div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.aspor.com.tr/canli-yayin-a2tv.html">
-            <span>Beyaz Tv</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
+        </a></div></div></div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box minika-cocuk">
+        <a target="_blank" href="Ulusal/6-Sinema/8-Sinema8/index.html" class="live-broadcast-box-image">
+        <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="169" height="113" alt="Sinema 7">
+         </a>
 
-                </a></div></div></div>
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-            <div class="live-broadcast-box aspor">
-            <a target="_blank" href="Ulusal/1-Ulusal/14-360Tv/index.html" class="live-broadcast-box-image">
-            <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTMyNTQwXw/360_tv.png" width="110" height="125" alt="360 Tv">
-            </a><div class="live-broadcast-box-text">
-            <a target="_blank" href="https://www.aspor.com.tr/webtv/canli-yayin">
-            <span>360 Tv</span>
-            <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
-            <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
-               </svg>
+            <div class="live-broadcast-box-text">
+                <a target="_blank" href="https://www.minikacocuk.com.tr/webtv/canli-yayin">
+                    <span>Sinema 7</span>
+                    <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+                        <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+                    </svg>
+
+        </a> </div></div></div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="live-broadcast-box ahaber">
+        <a target="_blank" href="Ulusal/6-Sinema/8-Sinema8/index.html" class="live-broadcast-box-image">
+        <img decoding="async" loading="lazy" src="https://od.lk/s/MTBfMjQ1NTU1NDk1Xw/SINEMATV.png" width="118" height="134" alt="Sinema 8">
+        </a>
+       <div class="live-broadcast-box-text">
+       <a target="_blank" href="https://www.ahaber.com.tr/video/canli-yayin">
+       <span>Sinema 8</span>
+       <svg data-name="Group 6177" xmlns="http://www.w3.org/2000/svg" width="7.542" height="12.838" viewbox="0 0 7.542 12.838">
+      <path data-name="Path 3235" d="M108.816 5.918 103.1.205a.7.7 0 0 0-.993 0l-.421.421a.7.7 0 0 0 0 .993l4.8 4.8-4.8 4.8a.7.7 0 0 0 0 .993l.421.421a.7.7 0 0 0 .993 0l5.719-5.718a.709.709 0 0 0 0-1z" transform="translate(-101.478)" style="fill:#284a77"></path>
+      </svg>
+
+
+
+
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 
 
 
 
+ 
+      
+        
+         
 
 
 
 
+    
+                
 
 
-
-
-
-
-
-
-      </a>
-        </div></div></div></div></div>
 
 
 <div class="fGeneral">
@@ -1788,6 +1910,8 @@ swiperMansetSlider.slideTo($(this).text())
              fctrl = false;
 
              var ajax = new XMLHttpRequest();
+
+           
 
              ajax.send();
 
