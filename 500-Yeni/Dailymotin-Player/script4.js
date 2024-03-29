@@ -1,6 +1,6 @@
 dailymotion
     .createPlayer('my-dailymotion-player-1', {
-      video: '',
+      video: 'x8oame9',
       player: 'xbzld', //a different id can be passed in here 
     })
     .then((player) => console.log(player))
@@ -8,47 +8,47 @@ dailymotion
 
   dailymotion
     .createPlayer('my-dailymotion-player-2', {
-      video: '',
+      video: 'x8sf8zm',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-3', {
-      video: '',
+      video: 'x8phcki',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-4', {
-      video: '',
+      video: 'x8scrj8',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-5', {
-      video: '',
+      video: 'x8smt9k',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-6', {
-      video: '',
+      video: 'x8pip6v',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-7', {
-      video: '',
+      video: 'x8q3u45',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-8', {
-      video: '',
+      video: 'x8sqs2u',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-9', {
-      video: '',
+      video: 'x8pfbb0',
     })
 
  dailymotion
     .createPlayer('my-dailymotion-player-10', {
-      video: '',
+      video: 'x8pfclr',
     })
 
 
