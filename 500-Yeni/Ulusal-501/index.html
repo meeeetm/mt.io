@@ -314,27 +314,8 @@
     }
 </style>
 
-<!-- Cookie Message --->
-<div class="cookie-message">
-    <div class="container">
-        <span>Veri politikasındaki amaçlarla sınırlı ve mevzuata uygun şekilde çerez konumlandırmaktayız.</span>
-        <button class="cookie-message-close" aria-label="Mesajı Kapat">
-            <i class="fa fa-times" aria-hidden="true"></i>
-        </button>
-    </div>
-</div>
 
-<script>
-    // Cookie Message Band
-    // Display Action
-    if ($.cookie('cookie_message_ulketv') == undefined) {
-        $('.cookie-message').show();
-    }
-    $('.cookie-message-close').on('click', function () {
-        $('.cookie-message').hide();
-        $.cookie('cookie_message_ulketv', 'closed', { expires: 9999999 });
-    });
-</script>
+
 
 </body>
 </html>
