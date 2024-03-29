@@ -1,6 +1,6 @@
 dailymotion
     .createPlayer('my-dailymotion-player-1', {
-      video: 'xbzld',
+      video: 'x3tl7h8',
       player: '', //a different id can be passed in here 
     })
     .then((player) => console.log(player))
@@ -8,7 +8,7 @@ dailymotion
 
   dailymotion
     .createPlayer('my-dailymotion-player-2', {
-      video: 'x8863vn',
+      video: 'x4cfi6z',
     })
 
  dailymotion

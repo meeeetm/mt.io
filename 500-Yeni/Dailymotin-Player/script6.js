@@ -21,15 +21,9 @@ dailymotion
       video: 'x4cfi2h',
     })
 
- dailymotion
-    .createPlayer('my-dailymotion-player-5', {
-      video: 'x4cfi6z',
-    })
 
- dailymotion
-    .createPlayer('my-dailymotion-player-6', {
-      video: 'x3tl7h8',
-    })
+
+
 
 
 
