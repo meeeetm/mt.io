@@ -1,13 +1,12 @@
-const whatsappButton = document.getElementById("send-whatsapp");
+let sendBtn = document.querySelector('.btn');
+sendBtn.addEventListener('click', ()=> {
+    let messageWhatsapp = document.querySelector('#message').value;
+    let countryArea = document.querySelector('#country').value;
+    let numberPhone = document.querySelector('#tel').value;
 
-whatsappButton.addEventListener("click", () => {
-  const whatsappContentField = document.getElementById(
-    "whatsapp-message-content"
-  );
-  const whatsappContent = whatsappContentField.value;
-  window.open(
-    `https://api.whatsapp.com/send?phone=32486790423&text=${whatsappContent}`,
-    "_blank"
-  );
-  // console.log(`https://wa.me/32486790423?text=${whatsappContent}`, "_blank");
+    let url = `https://api.whatsapp.com/send?phone=${countryArea}${encodeURIComponent(numberPhone)}&text=${encodeURIComponent(messageWhatsapp)}`;
+  
+  if( numberPhone != "") {
+    window.open(url);
+  }
 });
