@@ -37,7 +37,7 @@ li{
   padding-top: 10px;
   padding-left: 50px;
   padding-bottom: 10px;
-  font-size: 15px;
+  font-size: 8px;
 }
 a{
   text-decoration: none;
@@ -45,24 +45,24 @@ a{
   color: #3ba151;
   cursor: pointer;  
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 100;
   
 }
 a{
 
   cursor: pointer;
   letter-spacing: 0.5px;
-  font-weight: 500;
+  font-weight: 100;
 }
 
 a:hover{
   color:#7ced94;
-  font-weight: 800;
+  font-weight: 100;
 }
 
 body{
   width: 100%;
-  height: 100%;
+  height: 4%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
@@ -74,8 +74,8 @@ body{
   pointer: cursor;
   justify-content: center;
   align-items: center;
-  width: 120px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
 }
 
 
@@ -84,10 +84,10 @@ body{
   justify-content: center;
   color:#f4fff5e3;
   letter-spacing: 1.5px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  font-size: 70px;
-  font-weight: 700;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 10px;
+  font-weight: 100;
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
@@ -97,20 +97,20 @@ body{
   justify-content: center;
 }
 #content-row{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: -50px;
+  padding-top: 80px;
+  padding-bottom: 0px;
   display: flex;
-  margin-top: -10px;
+  margin-top: -60px;
   justify-content: center;
   align-items: center;
   
 }
 #artist-box{
-    margin: 15px;
+    margin: 1px;
     width: 25rem;
-    height: 100px;
+    height: 80px;
     border-radius: 5px;
     background-color: rgba(80,80,80,0.25);
     text-align: right;
@@ -122,20 +122,20 @@ body{
 }
 
 #artist-name{
-  width: 150px;
+  width: 100px;
   margin-left: 10px;
 }
 #artist-name h4{
-  margin-left: 10px;
-  margin-top: 35px;
+  margin-left: 1px;
+  margin-top: 10px;
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
    color:white;
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
 .button{
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: 25px;
   display: flex;
   font-size: 45px;
@@ -177,8 +177,8 @@ body{
 }
 
 #kpop img{
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   padding: 0px;
   margin: 0px;
   transform: scale(1);
@@ -189,7 +189,7 @@ body{
 }
 
 #kpop-name h4{
-  margin-top: 25px;
+  margin-top: 10px;
   font-size: 35px;
    color:#f582e7;
   text-align: center;
@@ -223,7 +223,7 @@ body{
   justify-content: center;
   align-items:center;
   margin-left: -10px;
-  height: 1500px;
+  height: 100px;
   width: 100vw;
   background-color: rgb(2 4 14);
 }
@@ -267,16 +267,16 @@ body{
 
 #album img{
   width: 200px;
-  height: 200px;
+  height: 100px;
   margin: 0;
   padding-top: 30px;
 }
 
 #album-box{
-    margin-left: 25px;
+    margin-left: 15px;
   margin-right: 25px;
-    width: 17rem;
-    height: 350px;
+    width: 1rem;
+    height: 100px;
     background-color: rgb(22 19 38 / 25%);
     text-align: center;
     display: grid;
@@ -291,7 +291,7 @@ body{
   margin-top: 25px;
   font-size: 18px;
    color: white;
-  margin-left: 36px;
+  margin-left: 1px;
   text-align: left;
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
