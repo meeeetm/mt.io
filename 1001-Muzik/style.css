@@ -35,9 +35,9 @@ li{
   margin-top: -1px;
   display: block;
   padding-top: 10px;
-  padding-left: 50px;
-  padding-bottom: 10px;
-  font-size: 15px;
+  padding-left: 20px;
+  padding-bottom: 2px;
+  font-size: 12px;
 }
 a{
   text-decoration: none;
@@ -57,7 +57,7 @@ a{
 
 a:hover{
   color:#7ced94;
-  font-weight: 800;
+  font-weight: 10;
 }
 
 body{
@@ -97,10 +97,10 @@ body{
   justify-content: center;
 }
 #content-row{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   display: flex;
   margin-top: -10px;
   justify-content: center;
@@ -108,7 +108,7 @@ body{
   
 }
 #artist-box{
-    margin: 15px;
+    margin: 10px;
     width: 25rem;
     height: 100px;
     border-radius: 5px;
@@ -122,7 +122,7 @@ body{
 }
 
 #artist-name{
-  width: 150px;
+  width: 100px;
   margin-left: 10px;
 }
 #artist-name h4{
@@ -190,7 +190,7 @@ body{
 
 #kpop-name h4{
   margin-top: 25px;
-  font-size: 35px;
+  font-size: 10px;
    color:#f582e7;
   text-align: center;
   font-family: spotify-circular, Helvetica, Arial, sans-serif;
@@ -289,7 +289,7 @@ body{
 
 #album-name h3{
   margin-top: 25px;
-  font-size: 18px;
+  font-size: 10px;
    color: white;
   margin-left: 36px;
   text-align: left;
