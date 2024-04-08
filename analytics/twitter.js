@@ -1,1 +1,0 @@
-twttr && twttr.conversion && twttr.conversion.trackPid('o7eyz', { tw_sale_amount: 0, tw_order_quantity: 0 });
