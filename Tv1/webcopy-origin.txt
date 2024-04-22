@@ -1,0 +1,448 @@
+Uri: https://fonts.googleapis.com/css?family=Montserrat:100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&subset=latin&display=swap&ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Roboto+Slab:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Montserrat:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXh0ow.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzc.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOkCnqEu92Fr1MmgVxIIzc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzc.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOkCnqEu92Fr1Mu51xIIzc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOlCnqEu92Fr1MmSU5fBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOlCnqEu92Fr1MmYUtfBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\roboto\v30\KFOmCnqEu92Fr1Mu4mxP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://tvpakistanlive.com/feed/
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://tvpakistanlive.com/live-tv/
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\live-tv\index.htm
+Content Type: text/html
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/apmvp/source/css/font-awesome.css?ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\apmvp\source\css\font-awesome.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/apmvp/source/css/mvp.css?ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\apmvp\source\css\mvp.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/apmvp/source/js/new.js?ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\apmvp\source\js\new.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.0.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor-pro\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.0.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor-pro\assets\js\frontend.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.0.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor-pro\assets\lib\sticky\jquery.sticky.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\css\frontend-legacy.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\js\frontend-modules.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\js\frontend.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\js\preloaded-modules.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\js\webpack.runtime.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\animations\animations.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\dialog\dialog.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.13.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\eicons\css\elementor-icons.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.svg
+Content Type: image/svg+xml
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.ttf
+Content Type: font/ttf
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.woff2
+Content Type: font/woff2
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\eicons\fonts\eicons.woff
+Content Type: font/woff
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\all.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\brands.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\fontawesome.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\regular.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\v4-shims.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\font-awesome\js\v4-shims.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.4.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\share-link\share-link.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\swiper\swiper.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\elementor\assets\lib\waypoints\waypoints.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.2.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\google-analytics-for-wordpress\assets\js\frontend-gtag.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.4
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\header-footer-elementor\assets\css\header-footer-elementor.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.4
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\header-footer-elementor\inc\widgets-css\frontend.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\ocean-extra\assets\css\widgets.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.5
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\revslider\public\assets\css\rs6.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.3.5
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\revslider\public\assets\js\rbtools.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.3.5
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\plugins\revslider\public\assets\js\rs6.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\css\style.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/css/third/hamburgers/hamburgers.min.css?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\css\third\hamburgers\hamburgers.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/css/third/hamburgers/types/3dx.css?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\css\third\hamburgers\types\3dx.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\css\third\simple-line-icons.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\fonts\fontawesome\css\all.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/js/theme.vanilla.min.js?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\js\theme.vanilla.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\js\vendors\flickity.pkgd.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/js/vendors/isotope.pkgd.min.js?ver=3.0.6
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\js\vendors\isotope.pkgd.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\js\vendors\magnific-popup.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/js/vendors/sidr.js?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\js\vendors\sidr.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/themes/oceanwp/assets/js/vendors/smoothscroll.min.js?ver=3.0.7
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\themes\oceanwp\assets\js\vendors\smoothscroll.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/2019/05/cropped-cropped-PA-1-180x180.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\2019\05\cropped-cropped-PA-1-180x180.png
+Content Type: image/png
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/2019/05/cropped-cropped-PA-1-192x192.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\2019\05\cropped-cropped-PA-1-192x192.png
+Content Type: image/png
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/2019/05/cropped-cropped-PA-1-32x32.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\2019\05\cropped-cropped-PA-1-32x32.png
+Content Type: image/png
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/2021/06/logo_big-300x82.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\2021\06\logo_big-300x82.png
+Content Type: image/png
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/2021/06/logo_big-768x211.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\2021\06\logo_big-768x211.png
+Content Type: image/png
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/2021/06/logo_big.png
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\2021\06\logo_big.png
+Content Type: image/png
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/elementor/css/global.css?ver=1636035824
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\elementor\css\global.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/elementor/css/post-6847.css?ver=1636035825
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\elementor\css\post-6847.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-content/uploads/elementor/css/post-7052.css?ver=1636035822
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-content\uploads\elementor\css\post-7052.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: https://tvpakistanlive.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-includes\js\imagesloaded.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-includes\js\jquery\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-includes\js\jquery\ui\core.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-includes/js/wp-embed.min.js?ver=5.8.9
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-includes\js\wp-embed.min.js
+Content Type: text/javascript
+
+Uri: https://tvpakistanlive.com/wp-includes/wlwmanifest.xml
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-includes\wlwmanifest.xml
+Content Type: application/xml
+
+Uri: https://tvpakistanlive.com/wp-json/
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-json\index.htm
+Content Type: application/json
+
+Uri: https://tvpakistanlive.com/wp-json/oembed/1.0/embed?url=https:%2F%2Ftvpakistanlive.com%2Flive-tv%2F
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: https://tvpakistanlive.com/wp-json/oembed/1.0/embed?url=https:%2F%2Ftvpakistanlive.com%2Flive-tv%2F&format=xml
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: https://tvpakistanlive.com/wp-json/wp/v2/pages/6775
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\wp-json\wp\v2\pages\6775
+Content Type: application/json
+
+Uri: https://tvpakistanlive.com/xmlrpc.php?rsd
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\xmlrpc.php
+Content Type: text/xml
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-139832550-17
+File Name: C:\Users\mulay\Pictures\TTTTTTMulayim\Nieuwe map (34)\tvpakistanlive.com\gtag\js
+Content Type: application/javascript
+
