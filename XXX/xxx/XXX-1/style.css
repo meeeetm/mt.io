@@ -8,7 +8,7 @@ background-color:black;
 .wrapper{
   background-color:red;
   margin:100px auto;
-  width:700px;
+  width:140px;
 }
 /*****Delete this*****/
 
@@ -58,7 +58,7 @@ background-color:black;
 }
 .archive-pages li a{
   cursor:pointer; 
-  line-height:20px;
+  line-height:40px;
   display:block;
   padding:5px;
   float:left;
@@ -73,7 +73,7 @@ background-color:black;
   margin:0px;
   font-size:.8em;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  border:1px solid silver;
+  border:5px solid silver;
   border-radius: 3px; 
   -moz-border-radius: 3px; 
   -webkit-border-radius: 3px;
